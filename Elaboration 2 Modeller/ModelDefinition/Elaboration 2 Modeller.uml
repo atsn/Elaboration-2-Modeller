@@ -5091,6 +5091,106 @@
         </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="d062b221-f976-49a7-9dac-8244a7568385"
+        name="StatueDatabase-ClassDiagram::Model::Statue" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="0e99754e-d266-4265-a4eb-d1800088d84d"
+        name="StatueDatabase-ClassDiagram::Model::CulturalValue" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="cce56c97-cff9-41c0-9381-5e32b804e21a"
+        name="StatueDatabase-ClassDiagram::Model::Placement" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="4bf96656-7595-4c31-8f18-8e1609cd51b4"
+        name="StatueDatabase-ClassDiagram::Model::Material" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="46d78c3c-d7eb-4b66-8a91-385aef4933f7"
+        name="StatueDatabase-ClassDiagram::Model::Type" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="4bfc9801-24d7-40e1-ad3b-f344e656c7b2"
+        name="StatueDatabase-ClassDiagram::Model::Image" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="4857c30c-ab01-4f88-9bf9-073c0f3a5a4a"
+        name="event" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="da4bbcde-e113-47b5-a9d9-fc43349c0987"
+        name="Bool" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="7aea12cc-8d09-40a9-b4f6-b680dcff96df"
+        LastKnownName="Model"
+        LastKnownLocation="Package1_1326.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="35b2d575-bbad-4b6e-a3c5-842259dcaee8"
+        LastKnownName="ViewModel"
+        LastKnownLocation="Package_1326.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="52fc90ed-b336-42e0-8d70-026c6a474124"
+        LastKnownName="View"
+        LastKnownLocation="Package2_1326.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="148d04b0-7b2d-4314-8adf-68977ab9f1bf"
+        LastKnownName="Common"
+        LastKnownLocation="Package3_1326.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="99026e64-1537-4290-85be-fe72d10feea9"
+        LastKnownName="Handler"
+        LastKnownLocation="Package4_1326.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ad088485-3be2-4cfa-b7e0-5d5f6a9ce615"
+        LastKnownName="Model1"
+        LastKnownLocation="Package_1331.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="bf68a1e8-7c65-40ab-a98b-1e4e8fba6ed9"
+        LastKnownName="ViewModel1"
+        LastKnownLocation="Package1_1331.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="61eaf1ab-61da-4a0d-b246-c174f884d707"
+        LastKnownName="View1"
+        LastKnownLocation="Package2_1331.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="dd2e7d61-303c-448a-ae72-b34e4d1b1fff"
+        LastKnownName="Common1"
+        LastKnownLocation="Package3_1331.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f8c4b506-1845-400b-a6e0-f56844c0a77c"
+        LastKnownName="Handler1"
+        LastKnownLocation="Package4_1331.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

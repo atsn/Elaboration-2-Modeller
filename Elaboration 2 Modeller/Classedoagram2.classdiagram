@@ -1,0 +1,890 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="11d27a3e-2346-432f-a9e6-56cb44b4dd5f" name="Classedoagram2" linkedPackageId="572dd0e6-7de2-43e9-bac7-2616a671dcc4" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <referencedType Id="c563f139-4686-4512-b548-1f65642776e9" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7e35867a-3876-4cd5-91ca-a3efb652afc5" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="259fd900-eccf-479e-ba16-c388d5773ef6" name="StatueDatabase-ClassDiagram::Model::Statue" isAbstract="false" isLeaf="false" cachedFullName="StatueDatabase-ClassDiagram::Model::Statue">
+        <elementDefinition Id="d062b221-f976-49a7-9dac-8244a7568385" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="86fa2b8d-ecea-4c96-87af-b787f6ac910f" name="StatueDatabase-ClassDiagram::Model::CulturalValue" isAbstract="false" isLeaf="false" cachedFullName="StatueDatabase-ClassDiagram::Model::CulturalValue">
+        <elementDefinition Id="0e99754e-d266-4265-a4eb-d1800088d84d" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="8aaaa13a-723a-4930-9252-023d8a989c5e" name="StatueDatabase-ClassDiagram::Model::Placement" isAbstract="false" isLeaf="false" cachedFullName="StatueDatabase-ClassDiagram::Model::Placement">
+        <elementDefinition Id="cce56c97-cff9-41c0-9381-5e32b804e21a" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="1e4d761d-947d-4e74-991b-51fd5a0dc185" name="StatueDatabase-ClassDiagram::Model::Material" isAbstract="false" isLeaf="false" cachedFullName="StatueDatabase-ClassDiagram::Model::Material">
+        <elementDefinition Id="4bf96656-7595-4c31-8f18-8e1609cd51b4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="8a64ad5a-a65d-496f-9894-284e7f168043" name="StatueDatabase-ClassDiagram::Model::Type" isAbstract="false" isLeaf="false" cachedFullName="StatueDatabase-ClassDiagram::Model::Type">
+        <elementDefinition Id="46d78c3c-d7eb-4b66-8a91-385aef4933f7" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="0490ec4f-55d0-43ac-b397-d2e4312c673b" name="StatueDatabase-ClassDiagram::Model::Image" isAbstract="false" isLeaf="false" cachedFullName="StatueDatabase-ClassDiagram::Model::Image">
+        <elementDefinition Id="4bfc9801-24d7-40e1-ad3b-f344e656c7b2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="09d0ce9a-dbdc-4be7-af0a-d42d63d5f960" name="event" isAbstract="false" isLeaf="false" cachedFullName="event">
+        <elementDefinition Id="4857c30c-ab01-4f88-9bf9-073c0f3a5a4a" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e4706c4c-ba5c-4d3e-8a0b-fd7684d774b7" name="Bool" isAbstract="false" isLeaf="false" cachedFullName="Bool">
+        <elementDefinition Id="da4bbcde-e113-47b5-a9d9-fc43349c0987" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ea567b9a-ce33-41ba-9a4b-19fc174bdf05" name="StatueDatabase-ClassDiagram::Model::Statue" isAbstract="false" isLeaf="false" cachedFullName="StatueDatabase-ClassDiagram::Model::Statue">
+        <elementDefinition Id="d062b221-f976-49a7-9dac-8244a7568385" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="adc3356f-4dc0-4ecb-a1ed-f0927b860365" name="StatueDatabase-ClassDiagram::Model::Damage" isAbstract="false" isLeaf="false" cachedFullName="StatueDatabase-ClassDiagram::Model::Damage">
+        <elementDefinition Id="4ab05587-9041-46f5-bc97-c62d058d491e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="d94e05fe-8817-4888-9ec6-2e0a5f137666" name="Model1">
+        <elementDefinition Id="ad088485-3be2-4cfa-b7e0-5d5f6a9ce615" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="7557b09e-91a7-4cbb-b70f-1b7aa837fafb" name="Statue" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="6cd82487-feb0-4896-9427-eafcfa3490ab" />
+              <ownedAttributesInternal>
+                <property Id="421bccc7-3532-49f1-b82b-fdd076b46cc9" name="int Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="90ba793d-c997-47cc-ad74-801ff05a6f31" />
+                </property>
+                <property Id="2e8d2ead-03a1-42f6-beb9-428ad7ce4076" name="string Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a0889ae5-d3c9-424c-8681-c5fd9b27e127" />
+                </property>
+                <property Id="9b62b4eb-ca2b-40c0-98b5-d475c98e18f8" name="string Address" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4c958b8e-a78e-421b-a85b-f400bc11ac0f" />
+                </property>
+                <property Id="68903557-55ec-4972-bbf0-bba7e2d4637b" name="string Zipcode" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6c31716d-065e-49cb-a2e1-a1ae3e45fce1" />
+                </property>
+                <property Id="9866faae-da96-498b-a740-9bf6b23b945a" name="string GPSLocation" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="74259abe-ede5-437b-b351-16bf8eb63b7e" />
+                </property>
+                <property Id="af61e217-4006-4ff4-9f24-ceef187754a1" name="DateTime Created" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bfe4adae-b103-4263-8b3f-99dbbc17bce4" />
+                </property>
+                <property Id="4bd447c9-6481-49a3-b633-5d6d577487a0" name="List&lt;Placement&gt; PlacementList" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8d5188da-bbe9-40cb-809a-0ea741860bbc" />
+                </property>
+                <property Id="d4191164-eae9-4354-9c8c-e1816b7caabe" name="List&lt;CulturalValue&gt; CulturalValueList" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9b20ea75-7ebb-4b24-b2d0-3ceacaf35331" />
+                </property>
+                <property Id="e6d91c00-f2d5-4394-99c2-ad2806d8864b" name="List&lt;Material&gt; MaterialList" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="557ff568-8158-45e8-808c-4d8c3f946c03" />
+                </property>
+                <property Id="4e1851c1-148a-4c83-8adb-fc3ee2f5e120" name="List&lt;Type&gt; TypeList" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="dcc4cefd-0c4f-4643-bc57-2d9f76c3a396" />
+                </property>
+                <property Id="c25b8462-90af-40b1-8367-ec2b1bd6b4e6" name="List&lt;Image&gt; ImageList" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f0cc141a-adef-4775-9e4b-931d5890dfcf" />
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="ed5027a1-68af-4661-a455-98b41ccc349e" name="Statue" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="806443bb-0366-404c-bd98-b7aa6dec182a" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="2b9a82f0-13cb-45bf-85bd-30a1d9e9c556" direction="Return" isUnique="false">
+                        <elementDefinition Id="fe101ce0-07a0-43bc-bc43-18f3ddb5e43f" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="259fd900-eccf-479e-ba16-c388d5773ef6" LastKnownName="StatueDatabase-ClassDiagram::Model::Statue" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="c11d2e1d-0700-47a4-89de-2a505f7a1ca2" name="CulturalValue" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="2e2dcb23-4a1d-4702-b369-90f1ccc6ce37" />
+              <ownedAttributesInternal>
+                <property Id="8482750c-2848-4fee-9396-e173a36b21cf" name="int Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a0328b9f-d0d0-4330-b467-112c0388ce0f" />
+                </property>
+                <property Id="63857973-4559-4616-97fe-c0fb1b90bfb5" name="int Value" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a030fe08-807b-4ac7-ac40-34f330e0d521" />
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="0d4b367b-a217-4fb0-b00d-542f5b22146b" name="CulturalValue" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="9adaec7d-4ce5-4fbb-a8a2-64de993397b3" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="77b7c3bb-51fe-49ce-be52-30d11c46c78c" direction="Return" isUnique="false">
+                        <elementDefinition Id="32dbb42e-8bbc-411a-8226-e129017e3366" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="86fa2b8d-ecea-4c96-87af-b787f6ac910f" LastKnownName="StatueDatabase-ClassDiagram::Model::CulturalValue" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="e54bfc05-508e-46a0-a7db-f8f1647d2fc2" name="int Id" direction="In" isUnique="false">
+                        <elementDefinition Id="bcc81f68-9b9b-4431-a362-f19967790daa" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="fe71e048-d479-4a22-af12-0adcd71c066e" name="Placement" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="c2bc2126-c35b-4051-b7a2-892ee3058da2" />
+              <ownedAttributesInternal>
+                <property Id="012a21a5-a145-4478-bd51-16768d479ed3" name="int Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e7b04d95-26f7-47cd-bf9e-4dab6a3a8b73" />
+                </property>
+                <property Id="b00824c5-01bc-4bc8-86a3-e3e85b092723" name="int Value" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="00f78938-0103-490b-a76a-b0f67f9dcac6" />
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="6cc505d5-85b8-4e72-8def-e4ff2c581e24" name="Placement" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="55f6ff7e-d25a-40d2-b732-9883be9a85bf" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="3ae7bef0-e81f-4e8d-bac6-e387389f5443" direction="Return" isUnique="false">
+                        <elementDefinition Id="e9923f6a-77ab-4760-ba91-de4dec5d9499" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="8aaaa13a-723a-4930-9252-023d8a989c5e" LastKnownName="StatueDatabase-ClassDiagram::Model::Placement" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="a7574323-e4d1-463c-a21b-0f1b867bd183" name="int Id" direction="In" isUnique="false">
+                        <elementDefinition Id="ca35eaea-7719-432f-9405-ed61e051aaf4" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="3732d90b-f6d9-4ac1-ad8c-3b5d94a1da28" name="Material" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="266b9b1d-42e2-4d1b-af75-b92176dbc360" />
+              <ownedAttributesInternal>
+                <property Id="1df64a7f-e73e-454e-a5c8-d74c1b1bfa92" name="int Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e1f69d83-fa4f-49b0-8538-dc4b5488b98b" />
+                </property>
+                <property Id="af2d307c-2c01-4033-b7da-26ed930cbe40" name="int Value" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ba72ac3a-268f-4c0f-9950-5d084a035b7c" />
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="a568859f-98a1-432c-a62f-34e986eed83a" name="Material" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="1214ac48-46a9-4c79-b117-84a04bf5ad79" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="df797471-b18e-46e8-92f1-50cd5e0acb8d" direction="Return" isUnique="false">
+                        <elementDefinition Id="e7b42a98-768e-4385-b72b-f1a5f4d66f29" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="1e4d761d-947d-4e74-991b-51fd5a0dc185" LastKnownName="StatueDatabase-ClassDiagram::Model::Material" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="34f6f12d-18a1-4e81-9782-1709c4d4fca0" name="int Id" direction="In" isUnique="false">
+                        <elementDefinition Id="bfeff50e-d15b-4e75-90f2-d627e6b242b1" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="84bfb99e-edff-4532-9c23-1bea0c213737" name="Type" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="31209947-f9d7-4ada-b895-bbb29ffe538b" />
+              <ownedAttributesInternal>
+                <property Id="d90da6d6-2bbd-44a6-8329-14f3c40a0074" name="int Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c24afe75-8c77-4c09-8a99-d9279517f3f9" />
+                </property>
+                <property Id="11813298-ec38-41a5-b1ea-429ce20c64d7" name="int Value" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7d4d85ee-7303-4e36-910d-e0fa95d32f38" />
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="1a0e8e68-7493-4dd7-96a5-b24f6ca19cf4" name="Type" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="6fec3428-3d99-43b6-871e-7316dcd27881" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="51911a13-4a6d-4c2f-bcf0-ca1b58892354" name="int Id" direction="In" isUnique="false">
+                        <elementDefinition Id="54b89476-2da5-4b70-a89a-ac87414a1bba" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="8569078e-ab3c-43ac-95c3-48502de44d3f" direction="Return">
+                        <elementDefinition Id="9679669e-1494-4209-9461-52f85162e7ac" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="8a64ad5a-a65d-496f-9894-284e7f168043" LastKnownName="StatueDatabase-ClassDiagram::Model::Type" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="10856b7f-8d3d-4c0d-872b-27ed3dba7c13" name="Image" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="85f0a7a5-0574-4d71-964f-1a0d5059620f" />
+              <ownedAttributesInternal>
+                <property Id="9fc47134-33a8-4b78-947f-c4e5a4274d09" name="int Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f556bbd0-a72e-400e-b751-1628b1bfd3b3" />
+                </property>
+                <property Id="500d7a15-d04b-4b65-80bb-768ecd50aee3" name="int Value" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d60b3f91-99fd-4983-8698-2e8912b2ddec" />
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="4ddd5376-f144-42ff-ad98-1c8b4901b947" name="Image" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="fb888db8-461d-4ece-ba19-6062519abfba" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="a99f6337-5250-4537-95e3-b044442a99bc" direction="Return" isUnique="false">
+                        <elementDefinition Id="1bad900b-efce-4a76-9e18-0682b0c499e9" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="0490ec4f-55d0-43ac-b397-d2e4312c673b" LastKnownName="StatueDatabase-ClassDiagram::Model::Image" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="9195db31-6c40-4a62-9080-f173a158e99e" name="int Id" direction="In" isUnique="false">
+                        <elementDefinition Id="19bf3d3b-167a-4b91-a819-631c34426493" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="9894cdde-92f6-451e-a9fa-bbd0959461e7" name="Damage1" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="9eb637e8-f045-4767-8ff7-ea41f05c605c" />
+              <ownedAttributesInternal>
+                <property Id="b0a19744-9731-46aa-b503-38deac30158f" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="120e4347-5cbd-4f09-8887-94c75d0244c7" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c563f139-4686-4512-b548-1f65642776e9" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="c5470155-8a15-4b56-b109-3d6958e11f74" name="Biologisk Vækst" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="03c35fb1-a3b8-4415-93df-49d5348548df" />
+              <ownedAttributesInternal>
+                <property Id="c9c9fecc-0755-4b88-8d94-9829e96ce886" name="DamageText" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4459d306-4d9d-4cdf-a372-23d45c02b00c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="41583dd9-cfab-470f-b179-c6421aee3bb8" LastKnownName="string" />
+                  </type_NamedElement>
+                </property>
+                <property Id="cdad0a4d-51ba-48cb-a4ea-3bb3b823045b" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6090f6a1-a65b-4b7f-9269-2f6bbf00b89e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cc6e2410-3e93-455c-8a04-57cffaf8d917" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="ce6923e9-3707-4372-a5b9-ae2df5021167" name="Forvitring" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="78421760-bc6e-4cee-80c5-dc19c16d641a" />
+              <ownedAttributesInternal>
+                <property Id="09afd377-8735-4cd7-b093-d3c438c90d82" name="DamageText" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="969d8fec-1c5d-4bbd-9e3e-4543ee04fe12" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ce65baa7-8518-4bd1-9476-93326cb32cd4" LastKnownName="string" />
+                  </type_NamedElement>
+                </property>
+                <property Id="788b4e8a-7bec-4a18-adb5-e5ebe04606bd" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="502c64d6-d466-4da9-a275-b5611c50fc2b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="58344f33-c811-4912-8fc4-ad6743e4a6e4" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="b2bd1e10-0eca-4add-a2de-eb950abdaf15" name="Konstruktionsskader" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="c587abe4-70a4-4895-819f-e81f711a00ad" />
+              <ownedAttributesInternal>
+                <property Id="7a5cf913-4374-4ee5-ae7b-358cd7f0c572" name="DamageText" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5b6e2d3a-b502-45ad-a932-fd41acf797e0" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="401313e6-4cec-48ad-a235-48d2f4ea7f50" LastKnownName="string" />
+                  </type_NamedElement>
+                </property>
+                <property Id="a9dc1330-89f1-4eb0-bfad-32cdc0e7c7ca" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f64899df-eae7-4f71-ad20-3c999646f76d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9bc6f574-ae81-4464-884d-0cb2530148ef" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="5b75e61b-8fbb-4edf-9e9b-fdb7d31c75eb" name="Mangelfulde Fuger" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="8f853439-d60f-4e51-89c1-642f88358ef1" />
+              <ownedAttributesInternal>
+                <property Id="7c762905-f5cf-4a6d-b2c1-0cb079c0557a" name="DamageText" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ff9e70ff-d4d8-4739-9485-5ecdc9ac4b37" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="78719bb8-45af-4ef2-8494-124970599f77" LastKnownName="string" />
+                  </type_NamedElement>
+                </property>
+                <property Id="532f4849-27b1-43e3-b12c-6cb4fa660697" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e2172700-a124-4ac9-8649-7f1caca0139f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6606bde5-5d77-40ed-9a93-78ab42f7c8ec" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="461d219c-3040-465c-a0dd-ea4389400553" name="Misfarvninger" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="9e1dc47a-61ec-4b94-83e6-2aa2685a473a" />
+              <ownedAttributesInternal>
+                <property Id="80592e57-fd07-411e-85bb-0e8176ec299d" name="DamageText" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b56da48b-a118-443c-9fb6-20dd96a2c62b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="963875f4-57ce-4182-9c5b-26afaa6e3bef" LastKnownName="string" />
+                  </type_NamedElement>
+                </property>
+                <property Id="161032d6-2663-476c-9eae-ec9471906fb9" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="eee8fdbc-4b99-425a-9721-d8415b328b43" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="12fc903c-cb43-4b3f-91b8-8a3d52152262" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="6fcfc28b-e44d-4377-a195-cdeb45b002f0" name="Revner" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="d6791611-a785-4e57-8014-08a8b89b4fa0" />
+              <ownedAttributesInternal>
+                <property Id="756963ee-58a0-4166-9035-3fc171139ed2" name="DamageText" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7d016250-f76d-47bb-bddc-55fefc9b43e0" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2ec8ee05-fc29-49ea-b366-5e2b17a79ab4" LastKnownName="string" />
+                  </type_NamedElement>
+                </property>
+                <property Id="6a06db26-2d7b-4942-b2f7-dcc520cbf6ca" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6ea6ea19-cefe-409b-b700-ed0dfbabad35" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3ba7a981-bd8f-42f0-b959-413a580490be" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="6f197155-2da9-47ec-977e-a925faca8529" name="Tabte Dele" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="7942b5f6-1e7c-4dfa-8da2-18ed39f65cb8" />
+              <ownedAttributesInternal>
+                <property Id="655c0245-80a1-454a-a540-4ea2dcf3eaae" name="DamageText" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="824635dd-8112-4aea-bc06-d3fff2068e9e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e02de492-1abc-436b-b9cd-09f282dbb9bb" LastKnownName="string" />
+                  </type_NamedElement>
+                </property>
+                <property Id="0b31fd3a-edfb-4759-9030-7685348e8765" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="11dd1655-4b6e-41f7-b354-6ee4d9d208b4" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ad08b767-c28b-484e-bf52-6c69273f98ea" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="6813e3a3-c969-44e2-9776-2c622e17bbe0" name="Andre Skader" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="2aa221d0-8c08-48a2-954e-672131593fe7" />
+              <ownedAttributesInternal>
+                <property Id="3bfeb502-2dfd-44e0-aa09-980e7ccfce9f" name="DamageText" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7779e39c-f8d1-410c-afb1-28c7114dd5c6" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="20f2c8d0-8691-4416-ac3f-627ab79d57d5" LastKnownName="string" />
+                  </type_NamedElement>
+                </property>
+                <property Id="78a980c9-a3c2-4fee-b6ba-3986c4ea1b34" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6e650336-fc99-4483-95eb-b597239c2a27" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="a2277565-b071-4f56-bed4-4e8b461c96df" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="5328907e-5135-411e-a2e6-bfec48771a7b" name="ViewModel1">
+        <elementDefinition Id="bf68a1e8-7c65-40ab-a98b-1e4e8fba6ed9" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="d2195e53-012a-4621-8274-30d7514c17ec" name="vmStatue" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="a931178f-80bc-49b9-8d12-1d0953ba7a57" />
+              <targetEnds>
+                <association Id="11815b05-7d9e-4412-98d5-05920b3e6533" isDerived="false" sourceEndRoleName="vmStatue" targetEndRoleName="RelayCommand : ICommand" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="a19ea87f-caee-4d20-9013-e18b1e3b505d" LastKnownName="RelayCommand : ICommand" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="b96750b2-fb86-4c87-bb3a-3c11e0d88efe" name="vmStatue" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="292b4f58-0768-4de6-be0e-3dcc125c7c4d" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="dd9dcede-0983-4965-b00e-68b5b3291653" name="RelayCommand : ICommand" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="beed47b2-c529-41c3-bc13-6356c7224525" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="1912a576-1c5b-4a32-8d3a-1b921059f8a6" />
+                </association>
+              </targetEnds>
+              <ownedOperationsInternal>
+                <operation Id="6867bb11-89f5-476d-b79c-4450b27d2653" name="RelayCommand CreateStatue" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="78a2b773-bdfb-4189-b69d-cd28ccae5bec" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="f50807e5-6390-4672-b872-2a37a375379b" name="VmDamage" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="8e1792c5-b5ae-4b92-a5f4-e2d3b8126ed3" />
+              <targetEnds>
+                <association Id="45f35340-3e92-4832-9225-32e77f9ca0d6" isDerived="false" sourceEndRoleName="VmDamage" targetEndRoleName="RelayCommand : ICommand" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="a19ea87f-caee-4d20-9013-e18b1e3b505d" LastKnownName="RelayCommand : ICommand" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="14aa0e6b-7771-44b7-b5c5-1e99de7cd4d9" name="VmDamage" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="f41f2238-ffc5-42a0-8f1a-31a77c55d0c8" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="a33395ac-484b-452d-bf25-e5a36df3968c" name="RelayCommand : ICommand" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="5fab40cb-d7f1-4da0-b1f7-87f9c55c909c" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="fde350ba-53b8-44df-81c1-0c53948f5923" />
+                </association>
+              </targetEnds>
+              <ownedOperationsInternal>
+                <operation Id="0aa97baa-afe4-4074-b7a7-7fcc59ede004" name="RelayCommand CreateDamage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="65b4dfe7-edbe-4dd3-8921-b33818fcb8f3" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="ab43a353-0707-41ef-97dd-a9a2b07dbce5" name="View1">
+        <elementDefinition Id="61eaf1ab-61da-4a0d-b246-c174f884d707" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="7c1c1362-bd0e-4d5d-a6e1-ec6bae9784cd" name="CreateStatue" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="59448708-cf82-477e-8c4e-29896c10e790" />
+              <targetEnds>
+                <association Id="a98113e6-ac2f-4344-83ba-b6695efa4206" isDerived="false" sourceEndRoleName="CreateStatue" targetEndRoleName="vmStatue" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="d2195e53-012a-4621-8274-30d7514c17ec" LastKnownName="vmStatue" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="7ee4bf89-8d07-4392-aed7-9e5dc8ac1ba5" name="CreateStatue" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="2aa31053-6a92-4e61-8a5d-92796b17bfc2" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="751ce47f-b32d-4e4c-bc3f-9432cf78ff94" name="vmStatue" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="e1bb3013-54b5-4134-b611-c7f6dc5a0867" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="e1a422a5-f2b7-4f1e-8b92-ab3255572ae7" />
+                </association>
+              </targetEnds>
+              <ownedOperationsInternal>
+                <operation Id="f1f8ef88-8b99-4a76-b3b8-9386b5f09340" name="Commit" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="9629d3ed-067d-414b-93d2-113949743833" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="7e94a978-4235-4b19-8339-9afac653e10f" name="Create Daamge" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="e107b0a8-6894-4bd1-bd5f-cf829502b836" />
+              <targetEnds>
+                <association Id="8a7f2fc0-38fc-4947-b93e-00cd553ec0be" isDerived="false" sourceEndRoleName="Create Daamge" targetEndRoleName="VmDamage" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="f50807e5-6390-4672-b872-2a37a375379b" LastKnownName="VmDamage" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="cd83a251-ceeb-4d24-be25-97c09a4c8e81" name="Create Daamge" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="6c6bca83-45b7-4429-aa42-76075370e41c" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="422f3c7a-3957-4bf5-ba51-8f7444423e13" name="VmDamage" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="c9b69c84-09d3-4c62-9cb1-1a8fd88bed8d" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="04771824-2739-4d41-907f-a065fce2266a" />
+                </association>
+              </targetEnds>
+              <ownedOperationsInternal>
+                <operation Id="89da6ffd-ec69-490c-a7a2-544018b65176" name="Commit" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="43baa78c-c9d1-42fa-b5f2-23cf15c5b6da" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="933bcd68-4caa-48ea-a0e8-21d7adcafc89" name="Common1">
+        <elementDefinition Id="dd2e7d61-303c-448a-ae72-b34e4d1b1fff" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="a19ea87f-caee-4d20-9013-e18b1e3b505d" name="RelayCommand : ICommand" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="c3b88d3c-a3c3-4b44-8344-b900b774c829" />
+              <targetEnds>
+                <association Id="f60ca817-de2a-42f2-8c4a-15c64809d09b" isDerived="false" sourceEndRoleName="RelayCommand : ICommand" targetEndRoleName="StatueHandler" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="d40ff3ed-5378-47db-b716-4cdac73a694b" LastKnownName="StatueHandler" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="d7f98e19-5e6f-4e4c-8fcc-2f737d01b098" name="RelayCommand : ICommand" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="006d4968-ef83-4f61-a8f1-c43414f9c412" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="7e51bd26-5605-4191-aae7-acc3017ddac5" name="StatueHandler" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="4fc89071-840a-4d14-9428-2b26d0558689" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="2bda16c1-c658-46a1-8417-ae8d4bf1cba6" />
+                </association>
+                <association Id="c9975f7f-ebc9-43f3-a3da-b22cbfbc2fb6" isDerived="false" sourceEndRoleName="RelayCommand : ICommand" targetEndRoleName="DamageHandler" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="9578b7a6-82a0-4936-ba7d-9b8f12c286e1" LastKnownName="DamageHandler" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="74232436-ebc0-4d96-8950-7945f225783d" name="RelayCommand : ICommand" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="50862dfc-60fa-45cb-890d-41cdd9998d06" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="93770db4-aefd-4d9f-8953-0394772eaec8" name="DamageHandler" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="2f5a231a-2d7b-4dbe-a5e3-a87cd6312700" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="2432e5d5-9bfa-4bbe-996a-540deeab9555" />
+                </association>
+              </targetEnds>
+              <ownedAttributesInternal>
+                <property Id="bc5fffe5-081e-4d8a-862d-e6f1909310fa" name="Action _execute" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0414cd04-68a2-4445-b224-2e677aa12344" />
+                </property>
+                <property Id="a6b3e964-7e75-4fb0-b216-a0a3b7cd9061" name="Func&lt;bool&gt; _canExecute" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="57e9d3fe-e959-4aee-ac96-3b4aae48b1b4" />
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="25aa4dd0-111e-4f49-86cc-da10f18c9c8c" name="RelayCommand" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="fce62e6c-f6dc-4ffd-b438-4e75a14f8a0f" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="3b7f829c-27f3-4a7a-a692-2ae2ac9b84a4" name="Action execute" direction="In" isUnique="false">
+                        <elementDefinition Id="90d1b06e-191c-45c0-be27-65aedaa87fb6" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="88c1cf37-2bda-420c-a9c9-099f01645f6c" name="EventHandler CanExecuteChanged" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="c680b352-e7b9-4e03-8f39-532c5e3a6e13" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="ec8dfc17-083f-4738-a93d-043222e28bf6" direction="Return" isUnique="false">
+                        <elementDefinition Id="2d9652b2-d05a-45cb-817b-09fc55b48ea4" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="09d0ce9a-dbdc-4be7-af0a-d42d63d5f960" LastKnownName="event" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="c1b87e21-3d8c-4460-9362-b3548dbf9e8d" name="RelayCommand" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="9fa08144-1109-4b21-9a8e-12b89786f457" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="a7be0e0f-832f-492d-83fe-a0bcb5fbf297" name="Action execute" direction="In" isUnique="false">
+                        <elementDefinition Id="88595164-8388-4f72-b854-f587ecd43a7f" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="4a741b15-8085-473c-a49b-9bf845947d49" name="Func&lt;bool&gt; canExecute" direction="In" isUnique="false">
+                        <elementDefinition Id="f9253175-74df-450e-8707-6081bb53ad4e" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="c0e679a4-669a-4fc3-9bc5-9475f6fb8a5f" name="CanExecute" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="7e2994b4-6cc9-43b7-b2f4-843d390e8686" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="02c8ce62-575c-4c06-8a2c-35ddcb2d6bee" name="object parameter" direction="In" isUnique="false">
+                        <elementDefinition Id="2e2409ef-b604-4261-910a-862a31554a6a" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="43fcf8fd-fc74-43bc-a95a-5a97fdaccfb3" direction="Return" isUnique="false">
+                        <elementDefinition Id="d45f0b04-03a0-418a-a98b-691b01d6a0a2" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="e4706c4c-ba5c-4d3e-8a0b-fd7684d774b7" LastKnownName="Bool" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="0b6d56a4-ed17-48a3-99fd-90f391a0ddd6" name="Execute" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="7ebb2ad7-9ead-4f7a-ba7c-b11a5b183e58" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="331211c0-28f1-455b-815e-aed28aee1e52" name="object parameter" direction="In" isUnique="false">
+                        <elementDefinition Id="027abb43-ffbe-48df-b089-d8ee5643d0fe" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="c77b39d3-e7c8-479f-8aeb-32ade0d369bf" name="RaiseCanExecuteChanged" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="9d324422-1ca5-4de3-a119-fa8737839174" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="fcc4357f-74d8-4399-b333-84c992775b68" name="REST WebService" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="08cb4d88-66da-4eb1-9056-91500352f649" />
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="b6182e92-ddfa-4f1c-b4de-aabfa17544fc" name="Handler1">
+        <elementDefinition Id="f8c4b506-1845-400b-a6e0-f56844c0a77c" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="d40ff3ed-5378-47db-b716-4cdac73a694b" name="StatueHandler" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="d922dc9f-2f09-40ab-8d8e-412b30a93662" />
+              <targetEnds>
+                <association Id="c438be30-70e4-434b-a569-3b8de3f3b221" isDerived="false" sourceEndRoleName="StatueHandler" targetEndRoleName="REST WebService" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="fcc4357f-74d8-4399-b333-84c992775b68" LastKnownName="REST WebService" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="21499010-906d-479c-ab87-7a17212099bc" name="StatueHandler" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="261b9fdb-0c4e-43bf-90eb-6cf792b585d5" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="e8a1fadf-efdb-4da3-be79-3e1e898892b8" name="REST WebService" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="50a3c866-1278-42a2-b685-7e1060da41a8" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="2ea52a1f-dc08-4913-899a-fc1327dc418a" />
+                </association>
+                <association Id="c9bf5dcc-8025-48e4-832b-35b8e6f6df3c" isDerived="false" sourceEndRoleName="StatueHandler" targetEndRoleName="Statue" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="7557b09e-91a7-4cbb-b70f-1b7aa837fafb" LastKnownName="Statue" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="fcef88a5-7ae3-4ba5-9063-74bd04a74461" name="StatueHandler" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="da526127-4450-4da4-9d5e-137ac2af6f72" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="ac927b54-08e9-4a4f-8ffb-16e087108981" name="Statue" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="00a1ec79-2657-4b04-8c3b-36392165ff3e" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="b74c152d-4787-4453-a323-58f5bc1729fa" />
+                </association>
+              </targetEnds>
+              <ownedOperationsInternal>
+                <operation Id="a0aeaca0-1b21-4d7d-83e1-97eced1d9803" name="CreateStatue" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="f91ac219-1e9e-4a31-b465-1e6fa5f44547" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="3861136a-f1b2-45bb-ac8a-63c5015afadd" direction="Return">
+                        <elementDefinition Id="8c8279e1-9dae-46f1-9839-036e52d041fa" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="ea567b9a-ce33-41ba-9a4b-19fc174bdf05" LastKnownName="StatueDatabase-ClassDiagram::Model::Statue" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="9578b7a6-82a0-4936-ba7d-9b8f12c286e1" name="DamageHandler" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="4c2ee528-5852-4ac4-85a5-2fc7a4c3b194" />
+              <targetEnds>
+                <association Id="32d2a823-c54f-48c1-a90c-be415ccabf19" isDerived="false" sourceEndRoleName="DamageHandler" targetEndRoleName="Damage1" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="9894cdde-92f6-451e-a9fa-bbd0959461e7" LastKnownName="Damage1" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="8c0559a0-f0ef-4118-9113-160f379ff805" name="DamageHandler" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="651326d0-917f-4807-8166-3931a08a3422" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="009fb719-0091-43db-af7f-5b61ec7e47d8" name="Damage1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="acfce3b2-5000-4d96-abd6-d0c929ed57d2" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="55256f15-4032-46c7-9d1e-676d397b0ee1" />
+                </association>
+              </targetEnds>
+              <ownedOperationsInternal>
+                <operation Id="d7bc171e-3f7f-4a82-94e3-85220c5bdbea" name="CreateDamage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="e138954d-841b-43c4-b3a5-c471f5d33a2a" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="40c4b513-d1c0-405a-aaef-b3981d9ec402" direction="Return" isUnique="false">
+                        <elementDefinition Id="d40d380e-3ef0-49af-8f12-51cdf198bdb3" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="adc3356f-4dc0-4ecb-a1ed-f0927b860365" LastKnownName="StatueDatabase-ClassDiagram::Model::Damage" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <packageHasNamedElement>
+      <referencedType Id="41583dd9-cfab-470f-b179-c6421aee3bb8" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="cc6e2410-3e93-455c-8a04-57cffaf8d917" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7e35867a-3876-4cd5-91ca-a3efb652afc5" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ce65baa7-8518-4bd1-9476-93326cb32cd4" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="58344f33-c811-4912-8fc4-ad6743e4a6e4" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7e35867a-3876-4cd5-91ca-a3efb652afc5" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="401313e6-4cec-48ad-a235-48d2f4ea7f50" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="9bc6f574-ae81-4464-884d-0cb2530148ef" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7e35867a-3876-4cd5-91ca-a3efb652afc5" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="78719bb8-45af-4ef2-8494-124970599f77" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="6606bde5-5d77-40ed-9a93-78ab42f7c8ec" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7e35867a-3876-4cd5-91ca-a3efb652afc5" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="963875f4-57ce-4182-9c5b-26afaa6e3bef" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="12fc903c-cb43-4b3f-91b8-8a3d52152262" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7e35867a-3876-4cd5-91ca-a3efb652afc5" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="2ec8ee05-fc29-49ea-b366-5e2b17a79ab4" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3ba7a981-bd8f-42f0-b959-413a580490be" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7e35867a-3876-4cd5-91ca-a3efb652afc5" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e02de492-1abc-436b-b9cd-09f282dbb9bb" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ad08b767-c28b-484e-bf52-6c69273f98ea" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7e35867a-3876-4cd5-91ca-a3efb652afc5" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="20f2c8d0-8691-4416-ac3f-627ab79d57d5" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="a2277565-b071-4f56-bed4-4e8b461c96df" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7e35867a-3876-4cd5-91ca-a3efb652afc5" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="572dd0e6-7de2-43e9-bac7-2616a671dcc4" name="Elaboration 2 Modeller">
+    <elementDefinition Id="4f974b17-cda5-46dd-8d02-bac5fa1c3532" />
+  </package>
+</logicalClassDesignerModel>

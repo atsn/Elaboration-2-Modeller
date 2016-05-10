@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="bf68a1e8-7c65-40ab-a98b-1e4e8fba6ed9"
+  name="ViewModel1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="a931178f-80bc-49b9-8d12-1d0953ba7a57"
+        name="vmStatue"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="1912a576-1c5b-4a32-8d3a-1b921059f8a6"
+            isDerived="false"
+            sourceEndRoleName="vmStatue"
+            targetEndRoleName="RelayCommand : ICommand"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c3b88d3c-a3c3-4b44-8344-b900b774c829"
+              LastKnownName="RelayCommand : ICommand"
+              LastKnownLocation="Package3_1331.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="292b4f58-0768-4de6-be0e-3dcc125c7c4d"
+                  name="vmStatue"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="beed47b2-c529-41c3-bc13-6356c7224525"
+                  name="RelayCommand : ICommand"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation
+            Id="78a2b773-bdfb-4189-b69d-cd28ccae5bec"
+            name="RelayCommand CreateStatue"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8e1792c5-b5ae-4b92-a5f4-e2d3b8126ed3"
+        name="VmDamage"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="fde350ba-53b8-44df-81c1-0c53948f5923"
+            isDerived="false"
+            sourceEndRoleName="VmDamage"
+            targetEndRoleName="RelayCommand : ICommand"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c3b88d3c-a3c3-4b44-8344-b900b774c829"
+              LastKnownName="RelayCommand : ICommand"
+              LastKnownLocation="Package3_1331.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f41f2238-ffc5-42a0-8f1a-31a77c55d0c8"
+                  name="VmDamage"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5fab40cb-d7f1-4da0-b1f7-87f9c55c909c"
+                  name="RelayCommand : ICommand"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation
+            Id="65b4dfe7-edbe-4dd3-8921-b33818fcb8f3"
+            name="RelayCommand CreateDamage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

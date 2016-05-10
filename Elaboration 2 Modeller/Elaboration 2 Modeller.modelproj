@@ -22,7 +22,51 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="Classedoagram2.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Classedoagram2.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Classedoagram2.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1326.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1331.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1326.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1331.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1326.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1331.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_1326.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_1331.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1326.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1331.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Folder Include="ModelDefinition\" />
+    <Content Include="Classdiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Classdiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Classdiagram.classdiagram</DependentUpon>
+    </Content>
     <Content Include="DomainModel.classdiagram">
       <SubType>Content</SubType>
     </Content>

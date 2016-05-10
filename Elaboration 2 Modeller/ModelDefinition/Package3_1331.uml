@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="dd2e7d61-303c-448a-ae72-b34e4d1b1fff"
+  name="Common1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="c3b88d3c-a3c3-4b44-8344-b900b774c829"
+        name="RelayCommand : ICommand"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="2bda16c1-c658-46a1-8417-ae8d4bf1cba6"
+            isDerived="false"
+            sourceEndRoleName="RelayCommand : ICommand"
+            targetEndRoleName="StatueHandler"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d922dc9f-2f09-40ab-8d8e-412b30a93662"
+              LastKnownName="StatueHandler"
+              LastKnownLocation="Package4_1331.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="006d4968-ef83-4f61-a8f1-c43414f9c412"
+                  name="RelayCommand : ICommand"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4fc89071-840a-4d14-9428-2b26d0558689"
+                  name="StatueHandler"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="2432e5d5-9bfa-4bbe-996a-540deeab9555"
+            isDerived="false"
+            sourceEndRoleName="RelayCommand : ICommand"
+            targetEndRoleName="DamageHandler"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="4c2ee528-5852-4ac4-85a5-2fc7a4c3b194"
+              LastKnownName="DamageHandler"
+              LastKnownLocation="Package4_1331.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="50862dfc-60fa-45cb-890d-41cdd9998d06"
+                  name="RelayCommand : ICommand"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2f5a231a-2d7b-4dbe-a5e3-a87cd6312700"
+                  name="DamageHandler"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="0414cd04-68a2-4445-b224-2e677aa12344"
+            name="Action _execute"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="57e9d3fe-e959-4aee-ac96-3b4aae48b1b4"
+            name="Func&lt;bool&gt; _canExecute"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="fce62e6c-f6dc-4ffd-b438-4e75a14f8a0f"
+            name="RelayCommand"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="90d1b06e-191c-45c0-be27-65aedaa87fb6"
+                  name="Action execute"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c680b352-e7b9-4e03-8f39-532c5e3a6e13"
+            name="EventHandler CanExecuteChanged"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2d9652b2-d05a-45cb-817b-09fc55b48ea4"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="4857c30c-ab01-4f88-9bf9-073c0f3a5a4a"
+                      LastKnownName="event"
+                      LastKnownLocation="Elaboration 2 Modeller.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9fa08144-1109-4b21-9a8e-12b89786f457"
+            name="RelayCommand"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="88595164-8388-4f72-b854-f587ecd43a7f"
+                  name="Action execute"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f9253175-74df-450e-8707-6081bb53ad4e"
+                  name="Func&lt;bool&gt; canExecute"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7e2994b4-6cc9-43b7-b2f4-843d390e8686"
+            name="CanExecute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2e2409ef-b604-4261-910a-862a31554a6a"
+                  name="object parameter"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d45f0b04-03a0-418a-a98b-691b01d6a0a2"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="da4bbcde-e113-47b5-a9d9-fc43349c0987"
+                      LastKnownName="Bool"
+                      LastKnownLocation="Elaboration 2 Modeller.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7ebb2ad7-9ead-4f7a-ba7c-b11a5b183e58"
+            name="Execute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="027abb43-ffbe-48df-b089-d8ee5643d0fe"
+                  name="object parameter"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9d324422-1ca5-4de3-a119-fa8737839174"
+            name="RaiseCanExecuteChanged"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="08cb4d88-66da-4eb1-9056-91500352f649"
+        name="REST WebService"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
