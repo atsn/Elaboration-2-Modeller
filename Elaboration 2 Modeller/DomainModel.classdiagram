@@ -233,12 +233,12 @@
               <associationHasOwnedEnds>
                 <memberEnd Id="3cae6e26-2b1d-4ff0-b014-ad26bea0b984" name="Skade" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
                   <lowerValueInternal>
-                    <literalString Id="7b719b89-9cc2-4b5a-9a7c-e83e58b92a39" name="Lower" value="Mange">
+                    <literalString Id="7b719b89-9cc2-4b5a-9a7c-e83e58b92a39" name="Lower" value="0">
                       <elementDefinition Id="2eb53af7-04eb-4f59-91d8-adc1e973b2ec" />
                     </literalString>
                   </lowerValueInternal>
                   <upperValueInternal>
-                    <literalString Id="f7dcc67b-b0c8-469d-985f-9540ddbe3ed3" name="Upper" value="Mange">
+                    <literalString Id="f7dcc67b-b0c8-469d-985f-9540ddbe3ed3" name="Upper" value="1">
                       <elementDefinition Id="a4c125ad-f3d9-4a07-93d4-b79bb6d381e3" />
                     </literalString>
                   </upperValueInternal>
@@ -1423,12 +1423,6 @@
           </association>
         </targetEnds>
         <ownedAttributesInternal>
-          <property Id="bed4ebb1-5236-4346-825f-4158b3e5548d" name="DamageText" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="682e67da-9962-4490-8001-df52eec29525" />
-            <type_NamedElement>
-              <referencedTypeMoniker Id="c8d77c25-cf95-4caa-88f8-442f83d14096" LastKnownName="string" />
-            </type_NamedElement>
-          </property>
           <property Id="f307e5d3-92e8-48d1-bc54-87fb89049148" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="a60bf452-3b57-407b-86ee-98550d3993f2" />
             <type_NamedElement>
@@ -1617,11 +1611,6 @@
     </packageHasNamedElement>
     <packageHasNamedElement>
       <referencedType Id="53741589-39a0-47af-b527-323f1fb90992" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
-        <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <referencedType Id="c8d77c25-cf95-4caa-88f8-442f83d14096" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
         <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
       </referencedType>
     </packageHasNamedElement>
