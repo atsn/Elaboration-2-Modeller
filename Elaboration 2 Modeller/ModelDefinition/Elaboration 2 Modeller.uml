@@ -4794,6 +4794,58 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
+          <association
+            Id="ac8186a7-c63a-4b8e-b9bd-a1b8152c468f"
+            isDerived="false"
+            sourceEndRoleName="Damage"
+            targetEndRoleName="Damage Types"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="0b2bd4ae-ec7f-4ddc-9852-860a53d13e37"
+              LastKnownName="Damage Types"
+              LastKnownLocation="Elaboration 2 Modeller.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1b0837b5-4b1b-4621-913a-16fef5c9ef03"
+                  name="Damage"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="21c17914-ca86-4112-b525-9a1936b9b0a8"
+                  name="Damage Types"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="ebc82573-53b1-485f-8fcc-46d2cb98cdc3"
+                      name="Lower"
+                      value="Mange" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="482d4599-4173-40cb-9fc5-545fb4ad171e"
+                      name="Upper"
+                      value="Mange" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
         </targetEnds>
         <ownedAttributesInternal>
           <property
@@ -6600,12 +6652,12 @@
             </operands>
           </combinedFragment>
           <operandOccurrenceSpecification
-            Id="3ece3506-fa9a-4fb3-9f62-298dae7ff564"
-            name="OperandOccurrenceSpecification5">
+            Id="77d93416-f7cf-4840-b48b-300c611d5194"
+            name="OperandOccurrenceSpecification1">
             <covered>
               <lifelineMoniker
-                Id="1da1b683-6a8e-44c3-87bd-5b5a642537c5"
-                LastKnownName="Billede"
+                Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
+                LastKnownName="Skade"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </operandOccurrenceSpecification>
@@ -6620,12 +6672,12 @@
             </covered>
           </operandOccurrenceSpecification>
           <operandOccurrenceSpecification
-            Id="77d93416-f7cf-4840-b48b-300c611d5194"
-            name="OperandOccurrenceSpecification1">
+            Id="3ece3506-fa9a-4fb3-9f62-298dae7ff564"
+            name="OperandOccurrenceSpecification5">
             <covered>
               <lifelineMoniker
-                Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
-                LastKnownName="Skade"
+                Id="1da1b683-6a8e-44c3-87bd-5b5a642537c5"
+                LastKnownName="Billede"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </operandOccurrenceSpecification>
@@ -6778,22 +6830,22 @@
             </covered>
           </messageOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="c8c8fd05-ed55-41de-97fd-1ea341cd28f2"
-            name="MessageOccurrenceSpecification54">
-            <covered>
-              <lifelineMoniker
-                Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
-                LastKnownName="Skade"
-                LastKnownLocation="Elaboration 2 Modeller.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="16002b1c-d0bb-474b-9fb0-63e179a524b4"
             name="MessageOccurrenceSpecification53">
             <covered>
               <lifelineMoniker
                 Id="1da1b683-6a8e-44c3-87bd-5b5a642537c5"
                 LastKnownName="Billede"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c8c8fd05-ed55-41de-97fd-1ea341cd28f2"
+            name="MessageOccurrenceSpecification54">
+            <covered>
+              <lifelineMoniker
+                Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
+                LastKnownName="Skade"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -6934,22 +6986,22 @@
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="7b18e1b7-2d63-4968-99cc-df5af7b1a9f8"
-            name="MessageOccurrenceSpecification47">
-            <covered>
-              <lifelineMoniker
-                Id="ccbd6e21-8f58-4716-9bb0-5408ba98d5b6"
-                LastKnownName="Handler"
-                LastKnownLocation="Elaboration 2 Modeller.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="9bb50104-aaa2-4373-8833-fa7208b8943a"
             name="MessageOccurrenceSpecification48">
             <covered>
               <lifelineMoniker
                 Id="1ebce8e0-d995-4842-a65a-5ab70d00eca6"
                 LastKnownName="Databasen"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="7b18e1b7-2d63-4968-99cc-df5af7b1a9f8"
+            name="MessageOccurrenceSpecification47">
+            <covered>
+              <lifelineMoniker
+                Id="ccbd6e21-8f58-4716-9bb0-5408ba98d5b6"
+                LastKnownName="Handler"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -7549,6 +7601,53 @@
       <executionEvent
         Id="c4c41b05-1593-4ba7-a355-2e33a8404fd1"
         name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0b2bd4ae-ec7f-4ddc-9852-860a53d13e37"
+        name="Damage Types"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="aeccd49d-0178-4fd9-a18f-6500b5491137"
+            name="Damage Type"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="42e76128-2583-4db5-951c-2c4094abad46"
+                LastKnownName="string"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7ff87fb3-97b7-46d1-b29d-0388cfdf6048"
+            name="Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="7e35867a-3876-4cd5-91ca-a3efb652afc5"
+                LastKnownName="int"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

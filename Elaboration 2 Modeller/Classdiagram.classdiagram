@@ -295,6 +295,25 @@
               </ownedAttributesInternal>
             </class>
           </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="390febf8-10f7-4571-8413-82a1771f76fd" name="Damage Types" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="40764ce9-189a-41ca-b377-ed9c44b43586" />
+              <ownedAttributesInternal>
+                <property Id="e5cf7dc3-0aa0-4eae-8eb1-ebe6b17910d8" name="Damage Type" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="02d7b506-68ec-4ecb-ac6c-d1894c4a15f7" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5b4cbb31-9feb-4051-a434-b9495e6283e9" LastKnownName="string" />
+                  </type_NamedElement>
+                </property>
+                <property Id="03642c96-ed30-4978-8d40-3b24c7ebdc22" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="63568e01-9143-4d83-9a47-ac21928c5c9b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="309c5a81-8228-4239-90cb-2f61aa293dc8" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
         </packagedElements>
       </package>
     </logicalClassDesignerModelHasPackages>
@@ -687,6 +706,11 @@
     <packageHasNamedElement>
       <referencedType Id="3d15096c-323a-4544-a730-e0c1a1a4b0ca" name="StatueDatabase-ClassDiagram::Model::Damage" isAbstract="false" isLeaf="false" cachedFullName="StatueDatabase-ClassDiagram::Model::Damage">
         <elementDefinition Id="4ab05587-9041-46f5-bc97-c62d058d491e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="5b4cbb31-9feb-4051-a434-b9495e6283e9" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
       </referencedType>
     </packageHasNamedElement>
   </packagedElements>

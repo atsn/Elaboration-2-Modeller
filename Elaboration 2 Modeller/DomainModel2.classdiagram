@@ -1234,6 +1234,32 @@
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="8fd335d5-6b08-4ce8-80a3-fd1019f1f54d" />
           </association>
+          <association Id="d35b5132-e40a-410d-bced-8423671cc6e1" isDerived="false" sourceEndRoleName="Damage" targetEndRoleName="Damage Types" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2ce07bb2-1115-4ab0-a690-90dea16c8576" LastKnownName="Damage Types" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9a49a626-268d-401a-8f5c-5333cf50f997" name="Damage" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1b0837b5-4b1b-4621-913a-16fef5c9ef03" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="160cadbf-be74-481b-9efb-794b111ad573" name="Damage Types" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="f2e529df-9db7-46b2-a0fd-f2cc554aefd3" name="Lower" value="Mange">
+                      <elementDefinition Id="ebc82573-53b1-485f-8fcc-46d2cb98cdc3" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="d9f077b3-7c61-4858-b76e-def1d300a097" name="Upper" value="Mange">
+                      <elementDefinition Id="482d4599-4173-40cb-9fc5-545fb4ad171e" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="21c17914-ca86-4112-b525-9a1936b9b0a8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ac8186a7-c63a-4b8e-b9bd-a1b8152c468f" />
+          </association>
         </targetEnds>
         <ownedAttributesInternal>
           <property Id="12b3ed25-c8a8-4076-a25b-93839ab43a3e" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
@@ -1267,6 +1293,35 @@
         <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
       </referencedType>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="fc167e8f-57aa-4e57-b934-8a4df4641b4a" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="4feaf5e1-18c4-435d-8438-2865e4aaa464" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7e35867a-3876-4cd5-91ca-a3efb652afc5" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2ce07bb2-1115-4ab0-a690-90dea16c8576" name="Damage Types" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0b2bd4ae-ec7f-4ddc-9852-860a53d13e37" />
+        <ownedAttributesInternal>
+          <property Id="b5c4619c-cc1a-483e-8eb1-ec302cabd425" name="Damage Type" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="aeccd49d-0178-4fd9-a18f-6500b5491137" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="fc167e8f-57aa-4e57-b934-8a4df4641b4a" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="4bd5abe7-1d00-4c71-b797-bd63e3a33daf" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7ff87fb3-97b7-46d1-b29d-0388cfdf6048" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="4feaf5e1-18c4-435d-8438-2865e4aaa464" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
   </packagedElements>
   <package Id="75676ef2-0036-4223-b790-5e4fb3eb9bc1" name="Elaboration 2 Modeller">
     <elementDefinition Id="4f974b17-cda5-46dd-8d02-bac5fa1c3532" />
