@@ -632,6 +632,22 @@
                   </relationshipOwnedElementsInternal>
                   <elementDefinition Id="7b032bec-a182-4e24-bbe2-6f80359d5571" />
                 </association>
+                <association Id="367ccf6b-540e-4f0f-9387-a144b2901b9f" isDerived="false" sourceEndRoleName="DamageHandler" targetEndRoleName="REST WebService" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="5a83fec4-61c0-4c13-9ff0-733535c0ef03" LastKnownName="REST WebService" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="a619326f-b818-41db-8f25-b63c31984a91" name="DamageHandler" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="acf773ee-67b6-4bf6-9ed1-4e19620cc3c6" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="d1e272d2-23d8-4e84-899c-7b637896717a" name="REST WebService" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="eda5366c-cc8d-48df-9d7e-a17bd82b995a" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="9bac7e38-78ab-4b6b-bea7-b26007de573e" />
+                </association>
               </targetEnds>
               <ownedOperationsInternal>
                 <operation Id="0f5e8e85-cd92-4805-a482-dad30a6c08fe" name="CreateDamage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">

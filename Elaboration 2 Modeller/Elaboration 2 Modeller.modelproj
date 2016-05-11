@@ -59,6 +59,13 @@
     <Content Include="ModelDefinition\Package_1331.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="SystemSecvenseDiagram.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SystemSecvenseDiagram.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>SystemSecvenseDiagram.sequencediagram</DependentUpon>
+    </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="Classdiagram.classdiagram">
       <SubType>Content</SubType>

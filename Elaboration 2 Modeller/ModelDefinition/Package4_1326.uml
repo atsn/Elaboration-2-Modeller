@@ -165,6 +165,45 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
+          <association
+            Id="9bac7e38-78ab-4b6b-bea7-b26007de573e"
+            isDerived="false"
+            sourceEndRoleName="DamageHandler"
+            targetEndRoleName="REST WebService"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="294cd002-32ff-4e98-91d9-4c302f2f20e0"
+              LastKnownName="REST WebService"
+              LastKnownLocation="Package3_1326.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="acf773ee-67b6-4bf6-9ed1-4e19620cc3c6"
+                  name="DamageHandler"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="eda5366c-cc8d-48df-9d7e-a17bd82b995a"
+                  name="REST WebService"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
         </targetEnds>
         <ownedOperationsInternal>
           <operation
