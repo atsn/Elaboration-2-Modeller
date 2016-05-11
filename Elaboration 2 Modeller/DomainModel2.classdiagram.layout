@@ -99,19 +99,12 @@
         <classShapeMoniker Id="7bc5d66e-f20d-42f8-8aae-cca604cd0584" />
       </nodes>
     </associationConnector>
-    <classShape Id="c22f36a1-084e-4452-9b81-1da8740ed3d9" absoluteBounds="0.5, 4, 1.5, 1.2226562251647311" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
-      <classMoniker Id="7822c109-5b21-49c0-9edf-47e395967bf1" LastKnownName="DamageImage" />
-      <nestedChildShapes>
-        <AttributeElementListCompartment Id="7123dfc3-249c-4cf2-83e4-cf0518494850" absoluteBounds="0.51500000000000057, 4.39, 1.4700000000000002, 0.52148435761531187" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
-        <OperationElementListCompartment Id="7a511160-946b-449f-a1ea-2f63d880b13b" absoluteBounds="0.51500000000000057, 4.921484357615312, 1.4700000000000002, 0.20117186754941951" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
-      </nestedChildShapes>
-    </classShape>
-    <associationConnector edgePoints="[(4.875 : 4.61132811258237); (2 : 4.61132811258237)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="1" targetMultiplicity="Mange">
-      <associationMoniker Id="137c240e-8028-4ca3-b175-64b279b7844f" />
+    <associationConnector edgePoints="[(5.625 : 5.38281247019768); (5.625 : 6.84570181291183); (10.4166666666667 : 6.84570181291183 : JumpStart); (10.5833333333333 : 6.84570181291183 : JumpEnd); (10.8229191666667 : 6.84570181291183 : JumpStart); (10.9895858333333 : 6.84570181291183 : JumpEnd); (13.125 : 6.84570181291183)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="1" targetMultiplicity="1">
+      <associationMoniker Id="29fe3e40-5e72-47ef-8cb8-163fe0591c17" />
       <relativeChildShapes />
       <nodes>
         <classShapeMoniker Id="7bc5d66e-f20d-42f8-8aae-cca604cd0584" />
-        <classShapeMoniker Id="c22f36a1-084e-4452-9b81-1da8740ed3d9" />
+        <classShapeMoniker Id="e3326172-0d4f-4065-a3e0-4932e4c09535" />
       </nodes>
     </associationConnector>
   </nestedChildShapes>

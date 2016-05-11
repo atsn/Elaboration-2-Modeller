@@ -295,62 +295,6 @@
               </ownedAttributesInternal>
             </class>
           </packageHasNamedElement>
-          <packageHasNamedElement>
-            <class Id="bf431268-0426-4652-999c-d98fc1de193e" name="DamageImage" isAbstract="false" isLeaf="false" isActiveClass="false">
-              <appliedStereotypesInternal>
-                <stereotypeInstance Id="1012273a-b8da-4138-8396-f84527e59e85" name="class" profile="CSharpProfile">
-                  <elementDefinition Id="99add8e2-66bd-4e26-ab4f-ff2b05836b8f" />
-                  <propertyInstances>
-                    <stereotypeInstanceHasPropertyInstances Id="70e04138-edcb-406b-9c94-8daeb574d8b8">
-                      <propertyInstance Id="40692943-ad7b-4f54-b5bd-df4ad13cdce0" name="ClrAttributes">
-                        <elementDefinition Id="e6865bbb-68d2-4c1f-8c27-d2b719400ff0" />
-                      </propertyInstance>
-                      <elementDefinition Id="bda3d764-beaa-466b-af0a-68acfa3630fb" />
-                    </stereotypeInstanceHasPropertyInstances>
-                    <stereotypeInstanceHasPropertyInstances Id="083bba24-b100-45d2-b538-6a8dd86d26a2">
-                      <propertyInstance Id="dc228b9d-b2fc-462d-8987-3e549da92b43" name="IsPartial" value="false">
-                        <elementDefinition Id="48585ecd-a130-4df8-8a09-06af3356c719" />
-                      </propertyInstance>
-                      <elementDefinition Id="bb31305f-1817-45cf-a339-1600eaa7edf4" />
-                    </stereotypeInstanceHasPropertyInstances>
-                    <stereotypeInstanceHasPropertyInstances Id="75dfc773-fc0d-4da5-8535-a17dd39f3fa5">
-                      <propertyInstance Id="059e6bed-f59e-4672-ab6f-d5969d72f5ac" name="IsStatic" value="false">
-                        <elementDefinition Id="501cbf96-e076-4526-aec4-0cd66bf66625" />
-                      </propertyInstance>
-                      <elementDefinition Id="68596554-a40c-414b-8f80-7532069f7d4a" />
-                    </stereotypeInstanceHasPropertyInstances>
-                    <stereotypeInstanceHasPropertyInstances Id="f729cca6-b1fe-4129-9714-11b7cd21b68c">
-                      <propertyInstance Id="6d0cc24e-a514-4f95-8af2-c3530ffffdd2" name="IsUnsafe" value="false">
-                        <elementDefinition Id="e3b7dbfd-377c-440f-9763-28a997b9e53a" />
-                      </propertyInstance>
-                      <elementDefinition Id="62691ecc-8f6c-4c72-9968-48dd5e414129" />
-                    </stereotypeInstanceHasPropertyInstances>
-                    <stereotypeInstanceHasPropertyInstances Id="19d91796-7ca3-48ea-843b-5d86569019fc">
-                      <propertyInstance Id="fa5ac02d-a63c-4604-beac-21579a439872" name="PackageVisibility" value="internal">
-                        <elementDefinition Id="b1d64f37-beb5-4276-8438-52585b0d94af" />
-                      </propertyInstance>
-                      <elementDefinition Id="27826cb6-5887-4416-b3ad-46f3fc3f1ac2" />
-                    </stereotypeInstanceHasPropertyInstances>
-                  </propertyInstances>
-                </stereotypeInstance>
-              </appliedStereotypesInternal>
-              <elementDefinition Id="c889791e-562b-45ca-90c6-093cf2cabdef" />
-              <ownedAttributesInternal>
-                <property Id="28391cd4-46c9-4716-a66d-2f0be0471f0d" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="6f9ab1de-428e-428b-ac12-099cc756357d" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="c64e5393-ca97-47c7-90ca-20791616a019" LastKnownName="int" />
-                  </type_NamedElement>
-                </property>
-                <property Id="56dbe759-16d2-42c0-ad10-1ff09f48856e" name="Image" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="b7342d35-eb68-48ea-a607-c96dee35fe49" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="c82539e3-7808-4ea9-80d8-8762689a90be" LastKnownName="string" />
-                  </type_NamedElement>
-                </property>
-              </ownedAttributesInternal>
-            </class>
-          </packageHasNamedElement>
         </packagedElements>
       </package>
     </logicalClassDesignerModelHasPackages>
@@ -743,16 +687,6 @@
     <packageHasNamedElement>
       <referencedType Id="3d15096c-323a-4544-a730-e0c1a1a4b0ca" name="StatueDatabase-ClassDiagram::Model::Damage" isAbstract="false" isLeaf="false" cachedFullName="StatueDatabase-ClassDiagram::Model::Damage">
         <elementDefinition Id="4ab05587-9041-46f5-bc97-c62d058d491e" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <referencedType Id="c64e5393-ca97-47c7-90ca-20791616a019" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
-        <elementDefinition Id="7e35867a-3876-4cd5-91ca-a3efb652afc5" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <referencedType Id="c82539e3-7808-4ea9-80d8-8762689a90be" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
-        <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
       </referencedType>
     </packageHasNamedElement>
   </packagedElements>
