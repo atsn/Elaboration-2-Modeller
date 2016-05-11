@@ -77,7 +77,7 @@
       </referencedType>
     </packageHasNamedElement>
     <logicalClassDesignerModelHasTypes>
-      <class Id="c0f897d4-137c-41b6-bd42-846a9bfa4237" name="Statue1" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="c0f897d4-137c-41b6-bd42-846a9bfa4237" name="Statue" isAbstract="false" isLeaf="false" isActiveClass="false">
         <appliedStereotypesInternal>
           <stereotypeInstance Id="e517ca27-cf4e-4c53-b01a-fe2ce462da74" name="class" profile="CSharpProfile">
             <elementDefinition Id="10b09c28-477e-4a63-88f7-3f9bdc03dd79" />
@@ -118,7 +118,7 @@
         <elementDefinition Id="8ed6a6f1-e8fb-4f20-b3f1-c502a7257234" />
         <targetEnds>
           <association Id="64597955-046e-44a7-9d50-9a2aee78302f" isDerived="false" sourceEndRoleName="Statue" targetEndRoleName="Place" isLeaf="false" isAbstract="false">
-            <classMoniker Id="2492bb33-7521-4cab-b761-8b8e67a22b61" LastKnownName="Place1" />
+            <classMoniker Id="2492bb33-7521-4cab-b761-8b8e67a22b61" LastKnownName="Place" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="a9015689-38e6-4a15-9045-4da1e1db34ef" name="Statue" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -144,7 +144,7 @@
             <elementDefinition Id="59da35a6-857e-4ce2-a254-f0aa3bfc408b" />
           </association>
           <association Id="5df8cd9a-9166-4167-932d-fce3db3653fd" isDerived="false" sourceEndRoleName="Statue" targetEndRoleName="Type" isLeaf="false" isAbstract="false">
-            <classMoniker Id="5095ed36-b57d-4d87-8ffc-230a5eaee0ba" LastKnownName="StatueType1" />
+            <classMoniker Id="5095ed36-b57d-4d87-8ffc-230a5eaee0ba" LastKnownName="StatueType" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="d656beae-375f-474a-878c-5526855971dc" name="Statue" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -170,7 +170,7 @@
             <elementDefinition Id="93dcaf8d-3d62-4bd3-be8b-be1ca8757ad4" />
           </association>
           <association Id="f01c64c1-5584-48b0-99df-c8d749c1ecf1" isDerived="false" sourceEndRoleName="Statue" targetEndRoleName="Image" isLeaf="false" isAbstract="false">
-            <classMoniker Id="c46cc7cf-de0e-4a00-b453-849b9dbb5224" LastKnownName="Image1" />
+            <classMoniker Id="c46cc7cf-de0e-4a00-b453-849b9dbb5224" LastKnownName="Image" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="79638359-6922-4fba-beda-b564f6c31fa3" name="Statue" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -196,7 +196,7 @@
             <elementDefinition Id="9e67c6d2-3162-4759-9f63-d453e62c41b8" />
           </association>
           <association Id="15b0b8d1-6f6a-4bf7-956f-c75d48a76229" isDerived="false" sourceEndRoleName="Statue" targetEndRoleName="Kultual value" isLeaf="false" isAbstract="false">
-            <classMoniker Id="651c7340-51d1-4864-9216-91affd4c0c9f" LastKnownName="Culturalvalue1" />
+            <classMoniker Id="651c7340-51d1-4864-9216-91affd4c0c9f" LastKnownName="Culturalvalue" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="cd7d5eae-2df8-4208-89b5-cb5033843360" name="Statue" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -212,7 +212,7 @@
             <elementDefinition Id="954d4b6d-0cca-4c00-aef7-b56683ec8953" />
           </association>
           <association Id="8585376a-2bba-4ea3-a7a0-349bd05614fe" isDerived="false" sourceEndRoleName="Statue" targetEndRoleName="Material" isLeaf="false" isAbstract="false">
-            <classMoniker Id="c4e4f8fb-e430-49e2-99ec-2b31622f40e9" LastKnownName="Material1" />
+            <classMoniker Id="c4e4f8fb-e430-49e2-99ec-2b31622f40e9" LastKnownName="Material" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="bed9fa04-97cf-4d6d-bafb-6f619b02fca0" name="Statue" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -238,7 +238,7 @@
             <elementDefinition Id="f6c371b5-05e5-45e1-986d-9871e40b6d4f" />
           </association>
           <association Id="5ee3810b-b841-4b35-8142-19e5450c4d6e" isDerived="false" sourceEndRoleName="Statue" targetEndRoleName="Skade" isLeaf="false" isAbstract="false">
-            <classMoniker Id="3de4d05f-3c2e-4176-b4cd-b9b47c0c43c6" LastKnownName="Damage1" />
+            <classMoniker Id="3de4d05f-3c2e-4176-b4cd-b9b47c0c43c6" LastKnownName="Damage" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="2f01566d-e945-4fc4-99e1-219712140202" name="Statue" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -929,7 +929,7 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="2492bb33-7521-4cab-b761-8b8e67a22b61" name="Place1" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="2492bb33-7521-4cab-b761-8b8e67a22b61" name="Place" isAbstract="false" isLeaf="false" isActiveClass="false">
         <appliedStereotypesInternal>
           <stereotypeInstance Id="eea3a6dd-f254-44f9-8eff-834b8199e57a" name="class" profile="CSharpProfile">
             <elementDefinition Id="becad9fc-9dde-45ea-ab78-6d9bdaa5bf7d" />
@@ -985,7 +985,7 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="5095ed36-b57d-4d87-8ffc-230a5eaee0ba" name="StatueType1" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="5095ed36-b57d-4d87-8ffc-230a5eaee0ba" name="StatueType" isAbstract="false" isLeaf="false" isActiveClass="false">
         <appliedStereotypesInternal>
           <stereotypeInstance Id="32a6707b-5cbd-4a80-aad0-c7b60706da0f" name="class" profile="CSharpProfile">
             <elementDefinition Id="ee58e069-0eed-47fa-98a5-0ddade63afcd" />
@@ -1041,7 +1041,7 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="c4e4f8fb-e430-49e2-99ec-2b31622f40e9" name="Material1" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="c4e4f8fb-e430-49e2-99ec-2b31622f40e9" name="Material" isAbstract="false" isLeaf="false" isActiveClass="false">
         <appliedStereotypesInternal>
           <stereotypeInstance Id="8b7a5ac4-5c77-41d2-8566-1c983ed0d34a" name="class" profile="CSharpProfile">
             <elementDefinition Id="bb4c0171-42c7-4945-ab34-8d15e970a240" />
@@ -1103,7 +1103,7 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="651c7340-51d1-4864-9216-91affd4c0c9f" name="Culturalvalue1" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="651c7340-51d1-4864-9216-91affd4c0c9f" name="Culturalvalue" isAbstract="false" isLeaf="false" isActiveClass="false">
         <appliedStereotypesInternal>
           <stereotypeInstance Id="803369a6-3ef9-48e8-91fb-64e71ffc7ed1" name="class" profile="CSharpProfile">
             <elementDefinition Id="f91794b4-f311-4cf6-8e5a-90ad7caeaa36" />
@@ -1159,7 +1159,7 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="c46cc7cf-de0e-4a00-b453-849b9dbb5224" name="Image1" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="c46cc7cf-de0e-4a00-b453-849b9dbb5224" name="Image" isAbstract="false" isLeaf="false" isActiveClass="false">
         <appliedStereotypesInternal>
           <stereotypeInstance Id="7a23ac5d-1865-46f4-8521-2c060dc4ae05" name="class" profile="CSharpProfile">
             <elementDefinition Id="47721e4d-b064-48dd-a6b1-e2b63f77a049" />
@@ -1215,7 +1215,7 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="3de4d05f-3c2e-4176-b4cd-b9b47c0c43c6" name="Damage1" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="3de4d05f-3c2e-4176-b4cd-b9b47c0c43c6" name="Damage" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="35b1252a-0ef8-4551-ad7e-f9bbea0236bd" />
         <ownedAttributesInternal>
           <property Id="12b3ed25-c8a8-4076-a25b-93839ab43a3e" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">

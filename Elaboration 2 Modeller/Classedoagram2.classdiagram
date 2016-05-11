@@ -281,7 +281,7 @@
             </class>
           </packageHasNamedElement>
           <packageHasNamedElement>
-            <class Id="9894cdde-92f6-451e-a9fa-bbd0959461e7" name="Damage1" isAbstract="false" isLeaf="false" isActiveClass="false">
+            <class Id="9894cdde-92f6-451e-a9fa-bbd0959461e7" name="Damage" isAbstract="false" isLeaf="false" isActiveClass="false">
               <elementDefinition Id="9eb637e8-f045-4767-8ff7-ea41f05c605c" />
               <ownedAttributesInternal>
                 <property Id="b0a19744-9731-46aa-b503-38deac30158f" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
@@ -767,7 +767,7 @@
               <elementDefinition Id="4c2ee528-5852-4ac4-85a5-2fc7a4c3b194" />
               <targetEnds>
                 <association Id="32d2a823-c54f-48c1-a90c-be415ccabf19" isDerived="false" sourceEndRoleName="DamageHandler" targetEndRoleName="Damage1" isLeaf="false" isAbstract="false">
-                  <classMoniker Id="9894cdde-92f6-451e-a9fa-bbd0959461e7" LastKnownName="Damage1" />
+                  <classMoniker Id="9894cdde-92f6-451e-a9fa-bbd0959461e7" LastKnownName="Damage" />
                   <relationshipOwnedElementsInternal>
                     <associationHasOwnedEnds>
                       <memberEnd Id="8c0559a0-f0ef-4118-9113-160f379ff805" name="DamageHandler" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">

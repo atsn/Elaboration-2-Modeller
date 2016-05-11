@@ -2611,7 +2611,7 @@
     <packageHasNamedElement>
       <class
         Id="8ed6a6f1-e8fb-4f20-b3f1-c502a7257234"
-        name="Statue1"
+        name="Statue"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -2668,7 +2668,7 @@
             isAbstract="false">
             <classMoniker
               Id="ee2526b3-5674-4d33-a4b7-9ccff4572a0f"
-              LastKnownName="Place1"
+              LastKnownName="Place"
               LastKnownLocation="Elaboration 2 Modeller.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -2720,7 +2720,7 @@
             isAbstract="false">
             <classMoniker
               Id="6c2a6364-9cd0-42fd-a222-cc15184a25ca"
-              LastKnownName="StatueType1"
+              LastKnownName="StatueType"
               LastKnownLocation="Elaboration 2 Modeller.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -2772,7 +2772,7 @@
             isAbstract="false">
             <classMoniker
               Id="bc2d12e4-085b-451f-a396-34c6d660c70d"
-              LastKnownName="Image1"
+              LastKnownName="Image"
               LastKnownLocation="Elaboration 2 Modeller.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -2824,7 +2824,7 @@
             isAbstract="false">
             <classMoniker
               Id="f21e88b3-2279-4af8-bbe4-c0f72647442c"
-              LastKnownName="Culturalvalue1"
+              LastKnownName="Culturalvalue"
               LastKnownLocation="Elaboration 2 Modeller.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -2863,7 +2863,7 @@
             isAbstract="false">
             <classMoniker
               Id="3cb48d69-4794-4c0f-9929-5d744bae67b9"
-              LastKnownName="Material1"
+              LastKnownName="Material"
               LastKnownLocation="Elaboration 2 Modeller.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -2915,7 +2915,7 @@
             isAbstract="false">
             <classMoniker
               Id="35b1252a-0ef8-4551-ad7e-f9bbea0236bd"
-              LastKnownName="Damage1"
+              LastKnownName="Damage"
               LastKnownLocation="Elaboration 2 Modeller.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -3866,7 +3866,7 @@
     <packageHasNamedElement>
       <class
         Id="ee2526b3-5674-4d33-a4b7-9ccff4572a0f"
-        name="Place1"
+        name="Place"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -3956,7 +3956,7 @@
     <packageHasNamedElement>
       <class
         Id="6c2a6364-9cd0-42fd-a222-cc15184a25ca"
-        name="StatueType1"
+        name="StatueType"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -4046,7 +4046,7 @@
     <packageHasNamedElement>
       <class
         Id="3cb48d69-4794-4c0f-9929-5d744bae67b9"
-        name="Material1"
+        name="Material"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -4154,7 +4154,7 @@
     <packageHasNamedElement>
       <class
         Id="f21e88b3-2279-4af8-bbe4-c0f72647442c"
-        name="Culturalvalue1"
+        name="Culturalvalue"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -4244,7 +4244,7 @@
     <packageHasNamedElement>
       <class
         Id="bc2d12e4-085b-451f-a396-34c6d660c70d"
-        name="Image1"
+        name="Image"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -4334,7 +4334,7 @@
     <packageHasNamedElement>
       <class
         Id="35b1252a-0ef8-4551-ad7e-f9bbea0236bd"
-        name="Damage1"
+        name="Damage"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -5219,7 +5219,7 @@
           </comment>
           <comment
             Id="8ab3d5f7-c4e6-43b1-ba77-43c58bb203b5">
-            <body>Bruger kligger opret skade</body>
+            <body>Bruger klikker opret skade</body>
           </comment>
           <comment
             Id="f64c677d-760a-4276-91b6-9cfc43e47442">
@@ -5227,15 +5227,15 @@
           </comment>
           <comment
             Id="5287893c-6de9-4eae-9698-64b33bc1563c">
-            <body>Bruger intaster skadeoplysninger og klikker gæm skade</body>
+            <body>Bruger indtaster skadeoplysninger og klikker gæm skade</body>
           </comment>
           <comment
             Id="c9406be8-b145-48ed-b698-863e5246abc4">
-            <body>System Gemmer statue og forteller brugeren at statuen er gemt</body>
+            <body>System Gemmer statue og fortæller brugeren at statuen er gemt</body>
           </comment>
           <comment
             Id="940c7eb3-61e1-43e3-8868-8e2aedc2d3b6">
-            <body>System forteller evt. brugeren om fejl brugeren skal rette</body>
+            <body>System fortæller evt. brugeren om fejl brugeren skal rette</body>
           </comment>
           <comment
             Id="9cd7ca1f-c99e-4d0e-8a27-2313f056e44e">
@@ -6176,7 +6176,7 @@
           </message>
           <message
             Id="da357743-c869-4ff8-a06c-5f08792ab840"
-            name="Statur Gemt"
+            name="Statue Gemt"
             messageKind="Complete"
             messageSort="Reply"
             createSelfMessage="false">
@@ -6434,12 +6434,12 @@
             interactionOperator="Loop">
             <coveredLifelines>
               <lifelineMoniker
-                Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
-                LastKnownName="Skade"
-                LastKnownLocation="Elaboration 2 Modeller.uml" />
-              <lifelineMoniker
                 Id="ccbd6e21-8f58-4716-9bb0-5408ba98d5b6"
                 LastKnownName="Handler"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+              <lifelineMoniker
+                Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
+                LastKnownName="Skade"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </coveredLifelines>
             <operands>
@@ -6448,12 +6448,12 @@
                 name="InteractionOperand1">
                 <coveredLifelines>
                   <lifelineMoniker
-                    Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
-                    LastKnownName="Skade"
-                    LastKnownLocation="Elaboration 2 Modeller.uml" />
-                  <lifelineMoniker
                     Id="ccbd6e21-8f58-4716-9bb0-5408ba98d5b6"
                     LastKnownName="Handler"
+                    LastKnownLocation="Elaboration 2 Modeller.uml" />
+                  <lifelineMoniker
+                    Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
+                    LastKnownName="Skade"
                     LastKnownLocation="Elaboration 2 Modeller.uml" />
                 </coveredLifelines>
                 <guard>
@@ -6583,22 +6583,22 @@
             </covered>
           </messageOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="6a3ed82b-2de8-4dae-877a-8ffee1265047"
-            name="MessageOccurrenceSpecification14">
-            <covered>
-              <lifelineMoniker
-                Id="ccbd6e21-8f58-4716-9bb0-5408ba98d5b6"
-                LastKnownName="Handler"
-                LastKnownLocation="Elaboration 2 Modeller.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="32f5cb2e-7def-4664-b116-b71feae63d5c"
             name="MessageOccurrenceSpecification13">
             <covered>
               <lifelineMoniker
                 Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
                 LastKnownName="Skade"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6a3ed82b-2de8-4dae-877a-8ffee1265047"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="ccbd6e21-8f58-4716-9bb0-5408ba98d5b6"
+                LastKnownName="Handler"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -6787,22 +6787,22 @@
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="8e25e1f5-c3ba-4a9d-b96c-cd6fa41cacca"
-            name="MessageOccurrenceSpecification3">
-            <covered>
-              <lifelineMoniker
-                Id="0cdebbf5-5562-4ba1-a402-5ba7474d8f26"
-                LastKnownName="Bruger interface"
-                LastKnownLocation="Elaboration 2 Modeller.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="80f958eb-b10a-44fa-b4ac-34efe32b0eee"
             name="MessageOccurrenceSpecification4">
             <covered>
               <lifelineMoniker
                 Id="a0f4230c-fa34-4d78-93b7-2bf805510d35"
                 LastKnownName="Bruger"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8e25e1f5-c3ba-4a9d-b96c-cd6fa41cacca"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="0cdebbf5-5562-4ba1-a402-5ba7474d8f26"
+                LastKnownName="Bruger interface"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -6937,7 +6937,7 @@
           </message>
           <message
             Id="d783a165-34b0-49ad-a35b-7ead26f45a40"
-            name="App beder handler om at  oprete en skade"
+            name="s"
             messageKind="Complete"
             messageSort="SynchCall"
             createSelfMessage="false">
@@ -6956,7 +6956,7 @@
           </message>
           <message
             Id="e26a1346-c5b1-484a-9ce9-71eba1289131"
-            name="Handler kalder Setpropertierne i skade klassen"
+            name="Handler kalder SetProperties i skade klassen"
             messageKind="Complete"
             messageSort="SynchCall"
             createSelfMessage="false">
@@ -7032,7 +7032,7 @@
           </message>
           <message
             Id="c35cc236-d131-4a65-869a-0e840b59f1f5"
-            name="Sender bekreftelse af at Skaden er oprrettet"
+            name="Sender bekræftelse af at Skaden er oprrettet"
             messageKind="Complete"
             messageSort="Reply"
             createSelfMessage="false">

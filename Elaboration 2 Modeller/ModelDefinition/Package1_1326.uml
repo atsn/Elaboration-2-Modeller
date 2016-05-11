@@ -523,7 +523,7 @@
     <packageHasNamedElement>
       <class
         Id="1a0e5289-833d-497f-b5de-1e1687aa1a3b"
-        name="Damage1"
+        name="Damage"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
