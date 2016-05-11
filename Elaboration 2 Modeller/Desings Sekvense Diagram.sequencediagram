@@ -179,16 +179,16 @@
               <lifelineMoniker Id="8d47f4ea-482e-4da7-b355-4fc214a43776" LastKnownName="Handler" />
             </covered>
           </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification Id="323ca6e3-df00-4898-bcc5-977fefa4e4eb" name="MessageOccurrenceSpecification13">
-            <elementDefinition Id="32f5cb2e-7def-4664-b116-b71feae63d5c" />
-            <covered>
-              <lifelineMoniker Id="6a2f8399-5030-4f8a-9d03-00f1bb7ac77a" LastKnownName="Skade" />
-            </covered>
-          </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="eceb3476-57c2-4a4a-8885-2414e49f06c1" name="MessageOccurrenceSpecification14">
             <elementDefinition Id="6a3ed82b-2de8-4dae-877a-8ffee1265047" />
             <covered>
               <lifelineMoniker Id="8d47f4ea-482e-4da7-b355-4fc214a43776" LastKnownName="Handler" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="323ca6e3-df00-4898-bcc5-977fefa4e4eb" name="MessageOccurrenceSpecification13">
+            <elementDefinition Id="32f5cb2e-7def-4664-b116-b71feae63d5c" />
+            <covered>
+              <lifelineMoniker Id="6a2f8399-5030-4f8a-9d03-00f1bb7ac77a" LastKnownName="Skade" />
             </covered>
           </messageOccurrenceSpecification>
           <executionOccurrenceSpecification Id="508a0e6d-1738-44ab-9777-975c57bf2c6b" name="ExecutionOccurrenceSpecification8">
@@ -299,16 +299,16 @@
               <lifelineMoniker Id="8d47f4ea-482e-4da7-b355-4fc214a43776" LastKnownName="Handler" />
             </covered>
           </executionOccurrenceSpecification>
-          <messageOccurrenceSpecification Id="2e4c6e16-06b3-46f9-a454-83312cbf24a0" name="MessageOccurrenceSpecification4">
-            <elementDefinition Id="80f958eb-b10a-44fa-b4ac-34efe32b0eee" />
-            <covered>
-              <lifelineMoniker Id="9c17f40f-c064-4db6-9c98-65aaf5c56649" LastKnownName="Bruger" />
-            </covered>
-          </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="f9edf6bb-0982-4e35-a067-f678d41b9ed9" name="MessageOccurrenceSpecification3">
             <elementDefinition Id="8e25e1f5-c3ba-4a9d-b96c-cd6fa41cacca" />
             <covered>
               <lifelineMoniker Id="d4c0776f-b097-4482-a19d-75e97de8643a" LastKnownName="Bruger interface" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="2e4c6e16-06b3-46f9-a454-83312cbf24a0" name="MessageOccurrenceSpecification4">
+            <elementDefinition Id="80f958eb-b10a-44fa-b4ac-34efe32b0eee" />
+            <covered>
+              <lifelineMoniker Id="9c17f40f-c064-4db6-9c98-65aaf5c56649" LastKnownName="Bruger" />
             </covered>
           </messageOccurrenceSpecification>
           <executionOccurrenceSpecification Id="deb70a40-0087-426c-bbef-d2b199dd1a78" name="ExecutionOccurrenceSpecification2">
@@ -381,7 +381,7 @@
               <messageOccurrenceSpecificationMoniker Id="dd60978d-872e-43bf-8333-46c8dadf830a" LastKnownName="MessageOccurrenceSpecification8" />
             </receiveEvent>
           </message>
-          <message Id="c4d3e58b-09df-409c-8873-2372f7f33ee6" name="Handler kalder SetProperties i skade klassen" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+          <message Id="c4d3e58b-09df-409c-8873-2372f7f33ee6" name="Handler kalder Set Metoderne i skade klassen" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
             <elementDefinition Id="e26a1346-c5b1-484a-9ce9-71eba1289131" />
             <sendEvent>
               <messageOccurrenceSpecificationMoniker Id="e5250dbf-e4d5-4803-9370-607fc6b24177" LastKnownName="MessageOccurrenceSpecification11" />

@@ -6583,22 +6583,22 @@
             </covered>
           </messageOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="32f5cb2e-7def-4664-b116-b71feae63d5c"
-            name="MessageOccurrenceSpecification13">
-            <covered>
-              <lifelineMoniker
-                Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
-                LastKnownName="Skade"
-                LastKnownLocation="Elaboration 2 Modeller.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="6a3ed82b-2de8-4dae-877a-8ffee1265047"
             name="MessageOccurrenceSpecification14">
             <covered>
               <lifelineMoniker
                 Id="ccbd6e21-8f58-4716-9bb0-5408ba98d5b6"
                 LastKnownName="Handler"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="32f5cb2e-7def-4664-b116-b71feae63d5c"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
+                LastKnownName="Skade"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -6787,22 +6787,22 @@
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="80f958eb-b10a-44fa-b4ac-34efe32b0eee"
-            name="MessageOccurrenceSpecification4">
-            <covered>
-              <lifelineMoniker
-                Id="a0f4230c-fa34-4d78-93b7-2bf805510d35"
-                LastKnownName="Bruger"
-                LastKnownLocation="Elaboration 2 Modeller.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="8e25e1f5-c3ba-4a9d-b96c-cd6fa41cacca"
             name="MessageOccurrenceSpecification3">
             <covered>
               <lifelineMoniker
                 Id="0cdebbf5-5562-4ba1-a402-5ba7474d8f26"
                 LastKnownName="Bruger interface"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="80f958eb-b10a-44fa-b4ac-34efe32b0eee"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="a0f4230c-fa34-4d78-93b7-2bf805510d35"
+                LastKnownName="Bruger"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -6956,7 +6956,7 @@
           </message>
           <message
             Id="e26a1346-c5b1-484a-9ce9-71eba1289131"
-            name="Handler kalder SetProperties i skade klassen"
+            name="Handler kalder Set Metoderne i skade klassen"
             messageKind="Complete"
             messageSort="SynchCall"
             createSelfMessage="false">
