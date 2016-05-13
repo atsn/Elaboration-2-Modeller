@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="5d3d07af-483a-466e-ab0d-ec8918675dd0" name="SystemSecvenseDiagram" linkedPackageId="391348f8-037d-4ce4-9714-613c5b3937a0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="5d3d07af-483a-466e-ab0d-ec8918675dd0" name="SystemSecvenseDiagram" linkedPackageId="391348f8-037d-4ce4-9714-613c5b3937a0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
   <packagedElements>
     <packageHasNamedElement>
       <interaction Id="6b5395e6-88d6-46b4-bd4d-0c934161d51a" name="SystemSecvenseDiagram" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
@@ -210,16 +210,16 @@
               <lifelineMoniker Id="c950cf8d-298d-4b61-ab4d-e4ed72381800" LastKnownName="Bruger" />
             </covered>
           </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification Id="a769edcb-3e3e-4ac7-905b-0513a80376b5" name="MessageOccurrenceSpecification12">
-            <elementDefinition Id="e67e3185-59c2-4594-8082-3588936450c4" />
-            <covered>
-              <lifelineMoniker Id="c950cf8d-298d-4b61-ab4d-e4ed72381800" LastKnownName="Bruger" />
-            </covered>
-          </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="56eb12a0-f9b0-4f5d-9049-49fe252ebf4d" name="MessageOccurrenceSpecification11">
             <elementDefinition Id="fd9e0b43-bb29-4301-bb63-f729cec9355e" />
             <covered>
               <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="a769edcb-3e3e-4ac7-905b-0513a80376b5" name="MessageOccurrenceSpecification12">
+            <elementDefinition Id="e67e3185-59c2-4594-8082-3588936450c4" />
+            <covered>
+              <lifelineMoniker Id="c950cf8d-298d-4b61-ab4d-e4ed72381800" LastKnownName="Bruger" />
             </covered>
           </messageOccurrenceSpecification>
           <executionOccurrenceSpecification Id="1f4a40b4-b7e6-47d9-be65-9dcb02c6f884" name="ExecutionOccurrenceSpecification6">
@@ -313,16 +313,16 @@
               </interactionOperand>
             </operands>
           </combinedFragment>
-          <operandOccurrenceSpecification Id="50cce780-0ba0-4249-978b-4ea242d372d3" name="OperandOccurrenceSpecification1">
-            <elementDefinition Id="ee8e0df6-d225-47bf-a370-23e35fd58307" />
-            <covered>
-              <lifelineMoniker Id="c950cf8d-298d-4b61-ab4d-e4ed72381800" LastKnownName="Bruger" />
-            </covered>
-          </operandOccurrenceSpecification>
           <operandOccurrenceSpecification Id="779e69a5-f74d-4df1-a0ce-d6f55c7212db" name="OperandOccurrenceSpecification3">
             <elementDefinition Id="86a6f7d5-9f5d-49c1-8842-b2b46e3d0485" />
             <covered>
               <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="50cce780-0ba0-4249-978b-4ea242d372d3" name="OperandOccurrenceSpecification1">
+            <elementDefinition Id="ee8e0df6-d225-47bf-a370-23e35fd58307" />
+            <covered>
+              <lifelineMoniker Id="c950cf8d-298d-4b61-ab4d-e4ed72381800" LastKnownName="Bruger" />
             </covered>
           </operandOccurrenceSpecification>
           <behaviorExecutionSpecification Id="5ce8fb11-6cc1-41ea-86e2-3e3444375575" name="BehaviorExecutionSpecification6">
@@ -399,16 +399,16 @@
               <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
             </covered>
           </operandOccurrenceSpecification>
-          <messageOccurrenceSpecification Id="db75689c-7e09-41ee-93f8-b0b88f6e0a10" name="MessageOccurrenceSpecification16">
-            <elementDefinition Id="64421bf1-0aa2-4282-90c5-b824ac521f62" />
-            <covered>
-              <lifelineMoniker Id="c950cf8d-298d-4b61-ab4d-e4ed72381800" LastKnownName="Bruger" />
-            </covered>
-          </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="eb7e809d-534d-420f-b383-af0efec604ce" name="MessageOccurrenceSpecification15">
             <elementDefinition Id="548cc8c5-ac3a-41f5-9cc8-981719f3b8fc" />
             <covered>
               <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="db75689c-7e09-41ee-93f8-b0b88f6e0a10" name="MessageOccurrenceSpecification16">
+            <elementDefinition Id="64421bf1-0aa2-4282-90c5-b824ac521f62" />
+            <covered>
+              <lifelineMoniker Id="c950cf8d-298d-4b61-ab4d-e4ed72381800" LastKnownName="Bruger" />
             </covered>
           </messageOccurrenceSpecification>
           <executionOccurrenceSpecification Id="038085da-d5e7-4fb2-aa90-3f7b1449ed8d" name="ExecutionOccurrenceSpecification8">

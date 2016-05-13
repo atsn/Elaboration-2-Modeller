@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="a36cf28d-a33e-4f56-baf9-2be42226af02" name="Classdiagram" linkedPackageId="958b5bb9-1680-463e-bb4d-e66486e6ef19" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="a36cf28d-a33e-4f56-baf9-2be42226af02" name="Classdiagram" linkedPackageId="958b5bb9-1680-463e-bb4d-e66486e6ef19" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
   <packagedElements>
     <packageHasNamedElement>
       <referencedType Id="56636676-7ac7-4399-b42d-ecb3455b8ffc" name="StatueDatabase-ClassDiagram::Model::Statue" isAbstract="false" isLeaf="false" cachedFullName="StatueDatabase-ClassDiagram::Model::Statue">
@@ -271,44 +271,56 @@
             </class>
           </packageHasNamedElement>
           <packageHasNamedElement>
-            <class Id="4f965fc2-836f-43e9-be99-235a67b8be9a" name="Damage" isAbstract="false" isLeaf="false" isActiveClass="false">
-              <elementDefinition Id="1a0e5289-833d-497f-b5de-1e1687aa1a3b" />
-              <ownedAttributesInternal>
-                <property Id="ccd9128b-4b3b-41ce-886f-8903b7662a70" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="6fc13e75-e612-4c91-9539-48ee07f57ece" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="309c5a81-8228-4239-90cb-2f61aa293dc8" LastKnownName="int" />
-                  </type_NamedElement>
-                </property>
-                <property Id="0c1a0fed-b97a-4daf-a4d7-b91e36ff11a4" name="Type" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="2547be09-c64b-4a55-b20d-0cf340e0f1f4" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="3c1ceb90-bf7c-476d-8df8-ba1b82f1dbca" LastKnownName="string" />
-                  </type_NamedElement>
-                </property>
-                <property Id="63a2015b-22ab-42f1-b459-925e15852e81" name="DamageText" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="6f43baea-a4bb-4393-a160-def7bc17bf5f" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="3691fc78-b493-4bf3-a731-4ba8583858ac" LastKnownName="string" />
-                  </type_NamedElement>
-                </property>
-              </ownedAttributesInternal>
-            </class>
-          </packageHasNamedElement>
-          <packageHasNamedElement>
-            <class Id="390febf8-10f7-4571-8413-82a1771f76fd" name="Damage Types" isAbstract="false" isLeaf="false" isActiveClass="false">
+            <class Id="390febf8-10f7-4571-8413-82a1771f76fd" name="DamageTypes" isAbstract="false" isLeaf="false" isActiveClass="false">
               <elementDefinition Id="40764ce9-189a-41ca-b377-ed9c44b43586" />
               <ownedAttributesInternal>
-                <property Id="e5cf7dc3-0aa0-4eae-8eb1-ebe6b17910d8" name="Damage Type" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                <property Id="e5cf7dc3-0aa0-4eae-8eb1-ebe6b17910d8" name="DamageTypeName" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
                   <elementDefinition Id="02d7b506-68ec-4ecb-ac6c-d1894c4a15f7" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="5b4cbb31-9feb-4051-a434-b9495e6283e9" LastKnownName="string" />
+                    <referencedTypeMoniker Id="5d1c73ef-49f5-4f5f-88e9-67b96979fa15" LastKnownName="string" />
                   </type_NamedElement>
                 </property>
                 <property Id="03642c96-ed30-4978-8d40-3b24c7ebdc22" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
                   <elementDefinition Id="63568e01-9143-4d83-9a47-ac21928c5c9b" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="309c5a81-8228-4239-90cb-2f61aa293dc8" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="4718c969-b8f6-4b42-85a6-fd948de31cf7" name="Damage" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="bb0721ce-ce6f-47b3-8a8e-c54a3aeeb6b6" />
+              <ownedAttributesInternal>
+                <property Id="2a9efdbb-825e-4a8e-9157-36fc7e877a42" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9d27ab2a-09cf-490f-ab67-af95ce0486df" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f731073f-eb1e-47bd-9534-45a5cf31a803" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+                <property Id="9bd3e726-93ec-48d3-8fc3-e6f3da345d64" name="FK_Type" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c4291b80-8727-45c1-9c8e-c39612a651f2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="394acaba-c265-453c-a171-408ee5a61c8f" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </property>
+                <property Id="c3ee7cff-cf44-464c-bb0b-269ac80970a6" name="DamageText" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0f3508b6-5e01-4a5c-88c5-59db0d02051e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="df386669-a221-4b7c-9a3b-c3fdfa69cb99" LastKnownName="string" />
+                  </type_NamedElement>
+                </property>
+                <property Id="4748369c-fe45-41a1-b655-924fee03920f" name="FK_Placement" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="df802e3a-bb3c-47e0-9f0c-1e2b0aa73ac3" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="39a97f98-9845-4fad-b0f5-0ab905a7052e" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </property>
+                <property Id="0848f618-4bf1-4a8a-9497-6676b924c976" name="Severity" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3c5fa1ca-6c75-438c-a7a4-ce06dd72469d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4324cc96-60d7-4dc3-bc9b-3e5b945b88cf" LastKnownName="int" />
                   </type_NamedElement>
                 </property>
               </ownedAttributesInternal>
@@ -350,7 +362,7 @@
             </class>
           </packageHasNamedElement>
           <packageHasNamedElement>
-            <class Id="5d08aa18-debf-422f-b306-05ac204359ed" name="VmDamage" isAbstract="false" isLeaf="false" isActiveClass="false">
+            <class Id="5d08aa18-debf-422f-b306-05ac204359ed" name="vmDamage" isAbstract="false" isLeaf="false" isActiveClass="false">
               <elementDefinition Id="2e6b27ad-1cc2-4a3e-82fb-9179046e97ce" />
               <targetEnds>
                 <association Id="912db9b5-e614-461e-a69b-eee777b3eff4" isDerived="false" sourceEndRoleName="VmDamage" targetEndRoleName="RelayCommand : ICommand" isLeaf="false" isAbstract="false">
@@ -413,14 +425,14 @@
             </class>
           </packageHasNamedElement>
           <packageHasNamedElement>
-            <class Id="4d8a7a0b-9296-492e-9146-cbbc486e7250" name="Create Daamge" isAbstract="false" isLeaf="false" isActiveClass="false">
+            <class Id="4d8a7a0b-9296-492e-9146-cbbc486e7250" name="CreateDamage" isAbstract="false" isLeaf="false" isActiveClass="false">
               <elementDefinition Id="7727604f-15b5-413e-8adb-651d98f0e5e2" />
               <targetEnds>
-                <association Id="cba10cb8-976d-4edc-a322-77efe04abfdf" isDerived="false" sourceEndRoleName="Create Daamge" targetEndRoleName="VmDamage" isLeaf="false" isAbstract="false">
-                  <classMoniker Id="5d08aa18-debf-422f-b306-05ac204359ed" LastKnownName="VmDamage" />
+                <association Id="cba10cb8-976d-4edc-a322-77efe04abfdf" isDerived="false" sourceEndRoleName="CreateDamage" targetEndRoleName="VmDamage" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="5d08aa18-debf-422f-b306-05ac204359ed" LastKnownName="vmDamage" />
                   <relationshipOwnedElementsInternal>
                     <associationHasOwnedEnds>
-                      <memberEnd Id="84914313-e41c-480d-8742-5623e9f71b70" name="Create Daamge" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                      <memberEnd Id="84914313-e41c-480d-8742-5623e9f71b70" name="CreateDamage" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
                         <elementDefinition Id="d43775a3-9324-4dc2-b21e-a08365701520" />
                       </memberEnd>
                     </associationHasOwnedEnds>
@@ -635,22 +647,6 @@
             <class Id="181605fc-26f2-4338-80b6-7f6b68bc0dbc" name="DamageHandler" isAbstract="false" isLeaf="false" isActiveClass="false">
               <elementDefinition Id="f9170a94-49fb-44e9-9b02-2bff1f784b21" />
               <targetEnds>
-                <association Id="ab6bf384-5ec2-49c2-9860-3250da9ad8a5" isDerived="false" sourceEndRoleName="DamageHandler" targetEndRoleName="Damage1" isLeaf="false" isAbstract="false">
-                  <classMoniker Id="4f965fc2-836f-43e9-be99-235a67b8be9a" LastKnownName="Damage" />
-                  <relationshipOwnedElementsInternal>
-                    <associationHasOwnedEnds>
-                      <memberEnd Id="0367a072-6f21-4e8d-b5bc-18caf65f6c41" name="DamageHandler" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                        <elementDefinition Id="3ad7b346-2ae3-4067-8649-87fd27e8af60" />
-                      </memberEnd>
-                    </associationHasOwnedEnds>
-                    <associationHasOwnedEnds>
-                      <memberEnd Id="aa07fa5a-8611-46dd-9ecf-4e845c526679" name="Damage1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                        <elementDefinition Id="33a8abdd-0b93-4ef7-8761-79cf2b19db86" />
-                      </memberEnd>
-                    </associationHasOwnedEnds>
-                  </relationshipOwnedElementsInternal>
-                  <elementDefinition Id="7b032bec-a182-4e24-bbe2-6f80359d5571" />
-                </association>
                 <association Id="367ccf6b-540e-4f0f-9387-a144b2901b9f" isDerived="false" sourceEndRoleName="DamageHandler" targetEndRoleName="REST WebService" isLeaf="false" isAbstract="false">
                   <classMoniker Id="5a83fec4-61c0-4c13-9ff0-733535c0ef03" LastKnownName="REST WebService" />
                   <relationshipOwnedElementsInternal>
@@ -666,6 +662,32 @@
                     </associationHasOwnedEnds>
                   </relationshipOwnedElementsInternal>
                   <elementDefinition Id="9bac7e38-78ab-4b6b-bea7-b26007de573e" />
+                </association>
+                <association Id="0bc73463-7e8e-43a6-a22e-385aac056c7e" isDerived="false" sourceEndRoleName="DamageHandler" targetEndRoleName="Damage" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="4718c969-b8f6-4b42-85a6-fd948de31cf7" LastKnownName="Damage" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="9f04b587-5319-4039-92f6-c37ecfc8dea3" name="DamageHandler" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="a4722d66-cf2f-42a7-853b-4e8100377937" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="10a17017-59de-4ca3-90a1-2b3556a53fa8" name="Damage" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <lowerValueInternal>
+                          <literalString Id="7e4305ac-2561-46fb-b3d1-f451a10c220a" name="Lower" value="Mange">
+                            <elementDefinition Id="54981ba6-fa91-41cb-8b02-521c723ebca4" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="9ae6cbb9-82e8-45c4-817c-34fcb2837d10" name="Upper" value="Mange">
+                            <elementDefinition Id="f48ff732-3e8a-40dd-9cca-c1bed9ec470a" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="bac2309b-e869-4166-beb3-2757495bcbb7" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="bce7b60d-9a16-49f4-a1c1-875d359900dc" />
                 </association>
               </targetEnds>
               <ownedOperationsInternal>
@@ -694,23 +716,38 @@
       </referencedType>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <referencedType Id="3c1ceb90-bf7c-476d-8df8-ba1b82f1dbca" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
-        <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <referencedType Id="3691fc78-b493-4bf3-a731-4ba8583858ac" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
-        <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
       <referencedType Id="3d15096c-323a-4544-a730-e0c1a1a4b0ca" name="StatueDatabase-ClassDiagram::Model::Damage" isAbstract="false" isLeaf="false" cachedFullName="StatueDatabase-ClassDiagram::Model::Damage">
         <elementDefinition Id="4ab05587-9041-46f5-bc97-c62d058d491e" />
       </referencedType>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <referencedType Id="5b4cbb31-9feb-4051-a434-b9495e6283e9" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+      <referencedType Id="5d1c73ef-49f5-4f5f-88e9-67b96979fa15" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
         <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f731073f-eb1e-47bd-9534-45a5cf31a803" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7e35867a-3876-4cd5-91ca-a3efb652afc5" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="df386669-a221-4b7c-9a3b-c3fdfa69cb99" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="42e76128-2583-4db5-951c-2c4094abad46" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="4324cc96-60d7-4dc3-bc9b-3e5b945b88cf" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7e35867a-3876-4cd5-91ca-a3efb652afc5" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="394acaba-c265-453c-a171-408ee5a61c8f" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="39a97f98-9845-4fad-b0f5-0ab905a7052e" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
       </referencedType>
     </packageHasNamedElement>
   </packagedElements>

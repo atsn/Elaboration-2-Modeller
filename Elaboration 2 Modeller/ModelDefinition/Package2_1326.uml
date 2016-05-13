@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
   dslVersion="1.0.0.0"
   Id="52fc90ed-b336-42e0-8d70-026c6a474124"
   name="View" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -67,7 +67,7 @@
     <packageHasNamedElement>
       <class
         Id="7727604f-15b5-413e-8adb-651d98f0e5e2"
-        name="Create Daamge"
+        name="CreateDamage"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -75,7 +75,7 @@
           <association
             Id="57fe8946-cb3c-48bb-9ed0-b7fa9f72f7dd"
             isDerived="false"
-            sourceEndRoleName="Create Daamge"
+            sourceEndRoleName="CreateDamage"
             targetEndRoleName="VmDamage"
             isLeaf="false"
             isAbstract="false">
@@ -87,7 +87,7 @@
               <associationHasOwnedEnds>
                 <memberEnd
                   Id="d43775a3-9324-4dc2-b21e-a08365701520"
-                  name="Create Daamge"
+                  name="CreateDamage"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"

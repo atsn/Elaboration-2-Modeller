@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
   dslVersion="1.0.0.0"
   Id="4f974b17-cda5-46dd-8d02-bac5fa1c3532"
   name="Elaboration 2 Modeller" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -4798,12 +4798,12 @@
             Id="ac8186a7-c63a-4b8e-b9bd-a1b8152c468f"
             isDerived="false"
             sourceEndRoleName="Damage"
-            targetEndRoleName="Damage Types"
+            targetEndRoleName="DamageTypes"
             isLeaf="false"
             isAbstract="false">
             <classMoniker
               Id="0b2bd4ae-ec7f-4ddc-9852-860a53d13e37"
-              LastKnownName="Damage Types"
+              LastKnownName="DamageTypes"
               LastKnownLocation="Elaboration 2 Modeller.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -4822,7 +4822,7 @@
               <associationHasOwnedEnds>
                 <memberEnd
                   Id="21c17914-ca86-4112-b525-9a1936b9b0a8"
-                  name="Damage Types"
+                  name="DamageTypes"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -4839,6 +4839,214 @@
                   <upperValueInternal>
                     <literalString
                       Id="482d4599-4173-40cb-9fc5-545fb4ad171e"
+                      name="Upper"
+                      value="Mange" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a43b78dd-7185-4329-ac3c-8fc56f641b73"
+            isDerived="false"
+            sourceEndRoleName="Damage"
+            targetEndRoleName="Place"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="ee2526b3-5674-4d33-a4b7-9ccff4572a0f"
+              LastKnownName="Place"
+              LastKnownLocation="Elaboration 2 Modeller.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7da7c941-efaf-467a-9caa-c8afa623430e"
+                  name="Damage"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a0aac611-6608-47a1-b66a-a4e464d15fe6"
+                  name="Place"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a3e6a4bb-5ea1-4728-b284-2c02d32895a2"
+            isDerived="false"
+            sourceEndRoleName="Damage"
+            targetEndRoleName="Statue"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3fc650a5-93b0-4598-b8a3-d145a02eca84"
+              LastKnownName="Statue"
+              LastKnownLocation="Elaboration 2 Modeller.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d8f7fc60-4704-4e8a-8d13-a0bcb7fc3403"
+                  name="Damage"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="ced96f5f-e486-413f-8c92-f51e43665d25"
+                      name="Lower"
+                      value="Mange" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="32d42627-7949-4209-a97d-5772723754ab"
+                      name="Upper"
+                      value="Mange" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f0bf75b9-4a03-4c32-ad2e-9eed7f9bef7d"
+                  name="Statue"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="05437168-777f-4c6b-a0db-3377df5fcedd"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="84683ad0-9bd6-4a55-b10e-260306109cf8"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7bbe64bc-ca8a-4007-adbe-ff4f4ea8c419"
+            isDerived="false"
+            sourceEndRoleName="Damage"
+            targetEndRoleName="Placement"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="eb1f015b-354c-454b-9449-e69369a06350"
+              LastKnownName="Placement"
+              LastKnownLocation="Elaboration 2 Modeller.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b1688a1f-8384-4bc1-9f48-eb83da1890cf"
+                  name="Damage"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="be61b3da-f2de-426a-b134-4e2ca6a06b61"
+                  name="Placement"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="aef15239-2406-4ba8-886e-7373d895aea2"
+                      name="Lower"
+                      value="Mange" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="7f2ad211-13b0-4e2e-9063-fa810dd64c69"
+                      name="Upper"
+                      value="Mange" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d36defd5-df4a-4c42-85ee-2b069237a7ee"
+            isDerived="false"
+            sourceEndRoleName="Damage"
+            targetEndRoleName="Image"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="e493b137-7241-4f5d-a774-efbf43b5d416"
+              LastKnownName="Image"
+              LastKnownLocation="Elaboration 2 Modeller.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ac846958-86b1-48c6-b568-db2ba1afcf25"
+                  name="Damage"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0d52c107-2e9a-4df2-8daa-9ce297975e57"
+                  name="Image"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="326c77e8-52d7-4eb8-aca7-cad4c1593799"
+                      name="Lower"
+                      value="Mange" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="cd4f6591-dc6b-4261-902e-a2dfa9506e77"
                       name="Upper"
                       value="Mange" />
                   </upperValueInternal>
@@ -4878,9 +5086,9 @@
             aggregation="None"
             isComposite="false">
             <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="42e76128-2583-4db5-951c-2c4094abad46"
-                LastKnownName="string"
+              <classMoniker
+                Id="0b2bd4ae-ec7f-4ddc-9852-860a53d13e37"
+                LastKnownName="DamageTypes"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </type_NamedElement>
           </property>
@@ -4899,6 +5107,42 @@
               <undefinedTypeMoniker
                 Id="42e76128-2583-4db5-951c-2c4094abad46"
                 LastKnownName="string"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5803975f-252b-409e-8548-b6a7417e9f1e"
+            name="Placement"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="91c634bd-8315-4f30-84cc-1b06a7fb67aa"
+                LastKnownName="Place"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1dbbf37e-38bb-4725-8d18-62d4d0df1665"
+            name="Statue"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="1bb6ba3a-354b-4240-a289-c5ea82529cee"
+                LastKnownName="Statue"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </type_NamedElement>
           </property>
@@ -6520,12 +6764,12 @@
                 LastKnownName="OperandOccurrenceSpecification4"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
               <messageOccurrenceSpecificationMoniker
-                Id="7b18e1b7-2d63-4968-99cc-df5af7b1a9f8"
-                LastKnownName="MessageOccurrenceSpecification47"
+                Id="fb9fd3bd-3452-4b43-b4c3-306c6dbd9992"
+                LastKnownName="MessageOccurrenceSpecification59"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
               <messageOccurrenceSpecificationMoniker
-                Id="91ce4008-1bc0-4219-9900-de7f8840b9dd"
-                LastKnownName="MessageOccurrenceSpecification50"
+                Id="6ea6cdec-eb81-4eb9-8ead-81b7ef83cce2"
+                LastKnownName="MessageOccurrenceSpecification62"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
               <messageOccurrenceSpecificationMoniker
                 Id="373d9e1c-74a6-485d-b55f-515e58baac85"
@@ -6588,6 +6832,10 @@
                 Id="1da1b683-6a8e-44c3-87bd-5b5a642537c5"
                 LastKnownName="Billede"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
+              <lifelineMoniker
+                Id="07e327bd-ea42-4cc6-97f3-fe0785dc17ea"
+                LastKnownName="Placement"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
             </coveredLifelines>
             <operands>
               <interactionOperand
@@ -6605,6 +6853,10 @@
                   <lifelineMoniker
                     Id="1da1b683-6a8e-44c3-87bd-5b5a642537c5"
                     LastKnownName="Billede"
+                    LastKnownLocation="Elaboration 2 Modeller.uml" />
+                  <lifelineMoniker
+                    Id="07e327bd-ea42-4cc6-97f3-fe0785dc17ea"
+                    LastKnownName="Placement"
                     LastKnownLocation="Elaboration 2 Modeller.uml" />
                 </coveredLifelines>
                 <guard>
@@ -6647,6 +6899,14 @@
                     Id="fc611767-ae11-49f4-ab92-c5dc4149292c"
                     LastKnownName="OperandOccurrenceSpecification6"
                     LastKnownLocation="Elaboration 2 Modeller.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="cefe6031-2f44-42ae-b0a0-16dcd8de1c2a"
+                    LastKnownName="OperandOccurrenceSpecification7"
+                    LastKnownLocation="Elaboration 2 Modeller.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="2d40de15-e8cb-42f0-9f64-aabce3de8ed5"
+                    LastKnownName="OperandOccurrenceSpecification8"
+                    LastKnownLocation="Elaboration 2 Modeller.uml" />
                 </operandOccurrenceSpecifications>
               </interactionOperand>
             </operands>
@@ -6678,6 +6938,16 @@
               <lifelineMoniker
                 Id="1da1b683-6a8e-44c3-87bd-5b5a642537c5"
                 LastKnownName="Billede"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="cefe6031-2f44-42ae-b0a0-16dcd8de1c2a"
+            name="OperandOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="07e327bd-ea42-4cc6-97f3-fe0785dc17ea"
+                LastKnownName="Placement"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </operandOccurrenceSpecification>
@@ -6716,6 +6986,14 @@
                 LastKnownName="MessageOccurrenceSpecification54"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
               <messageOccurrenceSpecificationMoniker
+                Id="2e66c5b8-5b43-4e41-8550-dede6683011c"
+                LastKnownName="MessageOccurrenceSpecification55"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f553edcf-793a-479d-925a-8697f5620f75"
+                LastKnownName="MessageOccurrenceSpecification58"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+              <messageOccurrenceSpecificationMoniker
                 Id="32f5cb2e-7def-4664-b116-b71feae63d5c"
                 LastKnownName="MessageOccurrenceSpecification13"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
@@ -6740,22 +7018,22 @@
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="b048d95c-8ac7-46a8-940a-89fc5d1cc81c"
-            name="MessageOccurrenceSpecification12">
-            <covered>
-              <lifelineMoniker
-                Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
-                LastKnownName="Skade"
-                LastKnownLocation="Elaboration 2 Modeller.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="9339412b-92e5-48cb-a66e-c84d56fcc7be"
             name="MessageOccurrenceSpecification11">
             <covered>
               <lifelineMoniker
                 Id="ccbd6e21-8f58-4716-9bb0-5408ba98d5b6"
                 LastKnownName="Handler"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b048d95c-8ac7-46a8-940a-89fc5d1cc81c"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
+                LastKnownName="Skade"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -6867,6 +7145,114 @@
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="fa6c9ba2-ccbb-40e7-9037-51b367c58def"
+            name="BehaviorExecutionSpecification15">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="07e327bd-ea42-4cc6-97f3-fe0785dc17ea"
+                LastKnownName="Placement"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="b20a924a-6a5e-4925-83ec-1fabbc3d9157"
+                LastKnownName="ExecutionOccurrenceSpecification30"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="7bbd976e-e0fd-444a-9e9b-1350a6061650"
+                LastKnownName="ExecutionOccurrenceSpecification29"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="c46db159-40e7-4ea0-9a83-99351db9cfc7"
+                LastKnownName="MessageOccurrenceSpecification56"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c1f137ca-665f-4b96-9f4a-ddc2eb444164"
+                LastKnownName="MessageOccurrenceSpecification57"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="7bbd976e-e0fd-444a-9e9b-1350a6061650"
+            name="ExecutionOccurrenceSpecification29">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="01862a55-78ba-44ad-bb1c-8a509767abd2"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Elaboration 2 Modeller.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="07e327bd-ea42-4cc6-97f3-fe0785dc17ea"
+                LastKnownName="Placement"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2e66c5b8-5b43-4e41-8550-dede6683011c"
+            name="MessageOccurrenceSpecification55">
+            <covered>
+              <lifelineMoniker
+                Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
+                LastKnownName="Skade"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c46db159-40e7-4ea0-9a83-99351db9cfc7"
+            name="MessageOccurrenceSpecification56">
+            <covered>
+              <lifelineMoniker
+                Id="07e327bd-ea42-4cc6-97f3-fe0785dc17ea"
+                LastKnownName="Placement"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f553edcf-793a-479d-925a-8697f5620f75"
+            name="MessageOccurrenceSpecification58">
+            <covered>
+              <lifelineMoniker
+                Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
+                LastKnownName="Skade"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c1f137ca-665f-4b96-9f4a-ddc2eb444164"
+            name="MessageOccurrenceSpecification57">
+            <covered>
+              <lifelineMoniker
+                Id="07e327bd-ea42-4cc6-97f3-fe0785dc17ea"
+                LastKnownName="Placement"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="b20a924a-6a5e-4925-83ec-1fabbc3d9157"
+            name="ExecutionOccurrenceSpecification30">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="45473e10-9661-4811-a5b0-e335c8aa036d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Elaboration 2 Modeller.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="07e327bd-ea42-4cc6-97f3-fe0785dc17ea"
+                LastKnownName="Placement"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
             Id="6a3ed82b-2de8-4dae-877a-8ffee1265047"
             name="MessageOccurrenceSpecification14">
@@ -6906,6 +7292,16 @@
             </covered>
           </executionOccurrenceSpecification>
           <operandOccurrenceSpecification
+            Id="2d40de15-e8cb-42f0-9f64-aabce3de8ed5"
+            name="OperandOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="07e327bd-ea42-4cc6-97f3-fe0785dc17ea"
+                LastKnownName="Placement"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
             Id="fc611767-ae11-49f4-ab92-c5dc4149292c"
             name="OperandOccurrenceSpecification6">
             <covered>
@@ -6936,44 +7332,130 @@
             </covered>
           </operandOccurrenceSpecification>
           <behaviorExecutionSpecification
-            Id="e6c85fee-df3b-4e07-a336-c99a11343a69"
-            name="BehaviorExecutionSpecification13">
+            Id="a1fece52-7074-4c61-9d98-815e224b0c62"
+            name="BehaviorExecutionSpecification16">
             <coveredLifelines>
               <lifelineMoniker
-                Id="1ebce8e0-d995-4842-a65a-5ab70d00eca6"
-                LastKnownName="Databasen"
+                Id="7a295da7-9da9-4eb1-893f-02b54b2669cd"
+                LastKnownName="Facade"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </coveredLifelines>
             <finish>
               <executionOccurrenceSpecificationMoniker
-                Id="3dcb8b79-733e-4e61-ba55-ba48331f6dd6"
-                LastKnownName="ExecutionOccurrenceSpecification26"
+                Id="a267760a-48cb-47a5-b5a6-14e4c86bd22f"
+                LastKnownName="ExecutionOccurrenceSpecification32"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </finish>
             <start>
               <executionOccurrenceSpecificationMoniker
-                Id="8747267d-9c89-4e69-9f8d-3b83fbf3f4ea"
-                LastKnownName="ExecutionOccurrenceSpecification25"
+                Id="8127613b-f60a-497f-96b2-3207493852fb"
+                LastKnownName="ExecutionOccurrenceSpecification31"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </start>
             <nestedOccurrences>
               <messageOccurrenceSpecificationMoniker
-                Id="9bb50104-aaa2-4373-8833-fa7208b8943a"
-                LastKnownName="MessageOccurrenceSpecification48"
+                Id="5a923dea-be65-4bfd-b56c-c98589f3e96c"
+                LastKnownName="MessageOccurrenceSpecification60"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
               <messageOccurrenceSpecificationMoniker
-                Id="a42d4e6e-19ab-465b-914a-0b96a2f0e41f"
-                LastKnownName="MessageOccurrenceSpecification49"
+                Id="00f6315e-0aa9-4815-8d67-f794198e6a15"
+                LastKnownName="MessageOccurrenceSpecification81"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="011e2770-27fe-42aa-8597-4502faed78bc"
+                LastKnownName="MessageOccurrenceSpecification84"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="22a97935-0ed1-43ba-8c24-001237801c25"
+                LastKnownName="MessageOccurrenceSpecification61"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </nestedOccurrences>
           </behaviorExecutionSpecification>
           <executionOccurrenceSpecification
-            Id="8747267d-9c89-4e69-9f8d-3b83fbf3f4ea"
-            name="ExecutionOccurrenceSpecification25">
+            Id="8127613b-f60a-497f-96b2-3207493852fb"
+            name="ExecutionOccurrenceSpecification31">
             <event>
               <executionOccurrenceSpecificationReferencesEvent>
                 <executionEventMoniker
-                  Id="92a7df1a-7c7e-4eca-9d1b-4d3feaf9cfb3"
+                  Id="51f1b379-43d8-444a-94bc-2209d6531169"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Elaboration 2 Modeller.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="7a295da7-9da9-4eb1-893f-02b54b2669cd"
+                LastKnownName="Facade"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="fb9fd3bd-3452-4b43-b4c3-306c6dbd9992"
+            name="MessageOccurrenceSpecification59">
+            <covered>
+              <lifelineMoniker
+                Id="ccbd6e21-8f58-4716-9bb0-5408ba98d5b6"
+                LastKnownName="Handler"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5a923dea-be65-4bfd-b56c-c98589f3e96c"
+            name="MessageOccurrenceSpecification60">
+            <covered>
+              <lifelineMoniker
+                Id="7a295da7-9da9-4eb1-893f-02b54b2669cd"
+                LastKnownName="Facade"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="54c3a487-c168-454f-8c65-aded28c9313b"
+            name="BehaviorExecutionSpecification22">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="1ebce8e0-d995-4842-a65a-5ab70d00eca6"
+                LastKnownName="Webservice"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="ff0781a1-c6c1-422a-adc1-231fe5f7467b"
+                LastKnownName="ExecutionOccurrenceSpecification44"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="688c8d36-eeb6-4530-87f7-fc808b573e0a"
+                LastKnownName="ExecutionOccurrenceSpecification43"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="275cb144-a888-4fca-90a7-36e04e617ec8"
+                LastKnownName="MessageOccurrenceSpecification82"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="48a4864c-f5c6-4466-8abb-e0d485106812"
+                LastKnownName="MessageOccurrenceSpecification91"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ab0bc166-cf1b-49ec-b6ad-bba51b9bea75"
+                LastKnownName="MessageOccurrenceSpecification94"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="bdf20a8b-f3e0-4c45-aafe-75601385d8ad"
+                LastKnownName="MessageOccurrenceSpecification83"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="688c8d36-eeb6-4530-87f7-fc808b573e0a"
+            name="ExecutionOccurrenceSpecification43">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="e6767639-f941-45d7-a5fc-e2e301436da6"
                   LastKnownName="ExecutionEvent"
                   LastKnownLocation="Elaboration 2 Modeller.uml" />
               </executionOccurrenceSpecificationReferencesEvent>
@@ -6981,57 +7463,165 @@
             <covered>
               <lifelineMoniker
                 Id="1ebce8e0-d995-4842-a65a-5ab70d00eca6"
-                LastKnownName="Databasen"
+                LastKnownName="Webservice"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="9bb50104-aaa2-4373-8833-fa7208b8943a"
-            name="MessageOccurrenceSpecification48">
+            Id="275cb144-a888-4fca-90a7-36e04e617ec8"
+            name="MessageOccurrenceSpecification82">
             <covered>
               <lifelineMoniker
                 Id="1ebce8e0-d995-4842-a65a-5ab70d00eca6"
-                LastKnownName="Databasen"
+                LastKnownName="Webservice"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </messageOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="7b18e1b7-2d63-4968-99cc-df5af7b1a9f8"
-            name="MessageOccurrenceSpecification47">
+            Id="00f6315e-0aa9-4815-8d67-f794198e6a15"
+            name="MessageOccurrenceSpecification81">
             <covered>
               <lifelineMoniker
-                Id="ccbd6e21-8f58-4716-9bb0-5408ba98d5b6"
-                LastKnownName="Handler"
+                Id="7a295da7-9da9-4eb1-893f-02b54b2669cd"
+                LastKnownName="Facade"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
-            Id="91ce4008-1bc0-4219-9900-de7f8840b9dd"
-            name="MessageOccurrenceSpecification50">
+          <behaviorExecutionSpecification
+            Id="39f2dd00-0b68-4903-9de1-da787b9f62de"
+            name="BehaviorExecutionSpecification25">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="84d55730-f235-4a82-9603-be403af9af4f"
+                LastKnownName="Database"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="28d18650-b12c-4fbf-b904-7dbe9c04c520"
+                LastKnownName="ExecutionOccurrenceSpecification50"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="59469d9b-707e-4568-9f92-4480530752ba"
+                LastKnownName="ExecutionOccurrenceSpecification49"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="b69de47e-c854-4167-b19a-ceb65ae91613"
+                LastKnownName="MessageOccurrenceSpecification92"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d529eb98-8375-41ae-8a1a-fad4868b847d"
+                LastKnownName="MessageOccurrenceSpecification93"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="59469d9b-707e-4568-9f92-4480530752ba"
+            name="ExecutionOccurrenceSpecification49">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b8df7582-1eb7-43f4-ba23-a0a42448817d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Elaboration 2 Modeller.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
             <covered>
               <lifelineMoniker
-                Id="ccbd6e21-8f58-4716-9bb0-5408ba98d5b6"
-                LastKnownName="Handler"
+                Id="84d55730-f235-4a82-9603-be403af9af4f"
+                LastKnownName="Database"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
-          </messageOccurrenceSpecification>
+          </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="a42d4e6e-19ab-465b-914a-0b96a2f0e41f"
-            name="MessageOccurrenceSpecification49">
+            Id="48a4864c-f5c6-4466-8abb-e0d485106812"
+            name="MessageOccurrenceSpecification91">
             <covered>
               <lifelineMoniker
                 Id="1ebce8e0-d995-4842-a65a-5ab70d00eca6"
-                LastKnownName="Databasen"
+                LastKnownName="Webservice"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b69de47e-c854-4167-b19a-ceb65ae91613"
+            name="MessageOccurrenceSpecification92">
+            <covered>
+              <lifelineMoniker
+                Id="84d55730-f235-4a82-9603-be403af9af4f"
+                LastKnownName="Database"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d529eb98-8375-41ae-8a1a-fad4868b847d"
+            name="MessageOccurrenceSpecification93">
+            <covered>
+              <lifelineMoniker
+                Id="84d55730-f235-4a82-9603-be403af9af4f"
+                LastKnownName="Database"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ab0bc166-cf1b-49ec-b6ad-bba51b9bea75"
+            name="MessageOccurrenceSpecification94">
+            <covered>
+              <lifelineMoniker
+                Id="1ebce8e0-d995-4842-a65a-5ab70d00eca6"
+                LastKnownName="Webservice"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </messageOccurrenceSpecification>
           <executionOccurrenceSpecification
-            Id="3dcb8b79-733e-4e61-ba55-ba48331f6dd6"
-            name="ExecutionOccurrenceSpecification26">
+            Id="28d18650-b12c-4fbf-b904-7dbe9c04c520"
+            name="ExecutionOccurrenceSpecification50">
             <event>
               <executionOccurrenceSpecificationReferencesEvent>
                 <executionEventMoniker
-                  Id="47c1ebda-f290-4ab8-86cc-6f410e836aa3"
+                  Id="7024dbe1-484b-4e39-b10a-4d3633b4e6f8"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Elaboration 2 Modeller.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="84d55730-f235-4a82-9603-be403af9af4f"
+                LastKnownName="Database"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="011e2770-27fe-42aa-8597-4502faed78bc"
+            name="MessageOccurrenceSpecification84">
+            <covered>
+              <lifelineMoniker
+                Id="7a295da7-9da9-4eb1-893f-02b54b2669cd"
+                LastKnownName="Facade"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="bdf20a8b-f3e0-4c45-aafe-75601385d8ad"
+            name="MessageOccurrenceSpecification83">
+            <covered>
+              <lifelineMoniker
+                Id="1ebce8e0-d995-4842-a65a-5ab70d00eca6"
+                LastKnownName="Webservice"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="ff0781a1-c6c1-422a-adc1-231fe5f7467b"
+            name="ExecutionOccurrenceSpecification44">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7e0e9bae-429f-4884-ad19-945987ed0ecd"
                   LastKnownName="ExecutionEvent"
                   LastKnownLocation="Elaboration 2 Modeller.uml" />
               </executionOccurrenceSpecificationReferencesEvent>
@@ -7039,20 +7629,48 @@
             <covered>
               <lifelineMoniker
                 Id="1ebce8e0-d995-4842-a65a-5ab70d00eca6"
-                LastKnownName="Databasen"
+                LastKnownName="Webservice"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="da85b0be-135f-467e-8b7c-9f40edefbd4c"
-            name="MessageOccurrenceSpecification10">
+            Id="6ea6cdec-eb81-4eb9-8ead-81b7ef83cce2"
+            name="MessageOccurrenceSpecification62">
             <covered>
               <lifelineMoniker
-                Id="0cdebbf5-5562-4ba1-a402-5ba7474d8f26"
-                LastKnownName="Bruger interface"
+                Id="ccbd6e21-8f58-4716-9bb0-5408ba98d5b6"
+                LastKnownName="Handler"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="22a97935-0ed1-43ba-8c24-001237801c25"
+            name="MessageOccurrenceSpecification61">
+            <covered>
+              <lifelineMoniker
+                Id="7a295da7-9da9-4eb1-893f-02b54b2669cd"
+                LastKnownName="Facade"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="a267760a-48cb-47a5-b5a6-14e4c86bd22f"
+            name="ExecutionOccurrenceSpecification32">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b1be4474-230c-4217-b1ee-2aa8f588cc35"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Elaboration 2 Modeller.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="7a295da7-9da9-4eb1-893f-02b54b2669cd"
+                LastKnownName="Facade"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
             Id="373d9e1c-74a6-485d-b55f-515e58baac85"
             name="MessageOccurrenceSpecification9">
@@ -7060,6 +7678,16 @@
               <lifelineMoniker
                 Id="ccbd6e21-8f58-4716-9bb0-5408ba98d5b6"
                 LastKnownName="Handler"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="da85b0be-135f-467e-8b7c-9f40edefbd4c"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="0cdebbf5-5562-4ba1-a402-5ba7474d8f26"
+                LastKnownName="Bruger interface"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -7082,22 +7710,22 @@
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="8e25e1f5-c3ba-4a9d-b96c-cd6fa41cacca"
-            name="MessageOccurrenceSpecification3">
-            <covered>
-              <lifelineMoniker
-                Id="0cdebbf5-5562-4ba1-a402-5ba7474d8f26"
-                LastKnownName="Bruger interface"
-                LastKnownLocation="Elaboration 2 Modeller.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="80f958eb-b10a-44fa-b4ac-34efe32b0eee"
             name="MessageOccurrenceSpecification4">
             <covered>
               <lifelineMoniker
                 Id="a0f4230c-fa34-4d78-93b7-2bf805510d35"
                 LastKnownName="Bruger"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8e25e1f5-c3ba-4a9d-b96c-cd6fa41cacca"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="0cdebbf5-5562-4ba1-a402-5ba7474d8f26"
+                LastKnownName="Bruger interface"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -7218,18 +7846,79 @@
             </topLevelOccurrences>
           </lifeline>
           <lifeline
-            Id="1ebce8e0-d995-4842-a65a-5ab70d00eca6"
-            name="Databasen"
+            Id="07e327bd-ea42-4cc6-97f3-fe0785dc17ea"
+            name="Placement"
             isActor="false"
-            lifelineDisplayName="Databasen">
+            lifelineDisplayName="Placement">
+            <represents>
+              <propertyMoniker
+                Id="799d3ba5-68c5-4363-af7e-aa44a18ddbb1"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </represents>
             <topLevelOccurrences>
-              <executionOccurrenceSpecificationMoniker
-                Id="8747267d-9c89-4e69-9f8d-3b83fbf3f4ea"
-                LastKnownName="ExecutionOccurrenceSpecification25"
+              <operandOccurrenceSpecificationMoniker
+                Id="cefe6031-2f44-42ae-b0a0-16dcd8de1c2a"
+                LastKnownName="OperandOccurrenceSpecification7"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
               <executionOccurrenceSpecificationMoniker
-                Id="3dcb8b79-733e-4e61-ba55-ba48331f6dd6"
-                LastKnownName="ExecutionOccurrenceSpecification26"
+                Id="7bbd976e-e0fd-444a-9e9b-1350a6061650"
+                LastKnownName="ExecutionOccurrenceSpecification29"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b20a924a-6a5e-4925-83ec-1fabbc3d9157"
+                LastKnownName="ExecutionOccurrenceSpecification30"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="2d40de15-e8cb-42f0-9f64-aabce3de8ed5"
+                LastKnownName="OperandOccurrenceSpecification8"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="7a295da7-9da9-4eb1-893f-02b54b2669cd"
+            name="Facade"
+            isActor="false"
+            lifelineDisplayName="Facade">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="8127613b-f60a-497f-96b2-3207493852fb"
+                LastKnownName="ExecutionOccurrenceSpecification31"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="a267760a-48cb-47a5-b5a6-14e4c86bd22f"
+                LastKnownName="ExecutionOccurrenceSpecification32"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="1ebce8e0-d995-4842-a65a-5ab70d00eca6"
+            name="Webservice"
+            isActor="false"
+            lifelineDisplayName="Webservice">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="688c8d36-eeb6-4530-87f7-fc808b573e0a"
+                LastKnownName="ExecutionOccurrenceSpecification43"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="ff0781a1-c6c1-422a-adc1-231fe5f7467b"
+                LastKnownName="ExecutionOccurrenceSpecification44"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="84d55730-f235-4a82-9603-be403af9af4f"
+            name="Database"
+            isActor="false"
+            lifelineDisplayName="Database">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="59469d9b-707e-4568-9f92-4480530752ba"
+                LastKnownName="ExecutionOccurrenceSpecification49"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="28d18650-b12c-4fbf-b904-7dbe9c04c520"
+                LastKnownName="ExecutionOccurrenceSpecification50"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </topLevelOccurrences>
           </lifeline>
@@ -7331,6 +8020,44 @@
             </receiveEvent>
           </message>
           <message
+            Id="56264017-23fb-48d5-8d15-b2a8e4c148fa"
+            name="Kalder Set Metoden på Placement"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2e66c5b8-5b43-4e41-8550-dede6683011c"
+                LastKnownName="MessageOccurrenceSpecification55"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c46db159-40e7-4ea0-9a83-99351db9cfc7"
+                LastKnownName="MessageOccurrenceSpecification56"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="0f68f118-b1df-48a7-9656-38c79104e0e0"
+            name="Placement"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c1f137ca-665f-4b96-9f4a-ddc2eb444164"
+                LastKnownName="MessageOccurrenceSpecification57"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f553edcf-793a-479d-925a-8697f5620f75"
+                LastKnownName="MessageOccurrenceSpecification58"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </receiveEvent>
+          </message>
+          <message
             Id="8a48d0b9-ff7d-409b-a8fd-ca61148d0e10"
             name="Retunere Skade"
             messageKind="Complete"
@@ -7350,40 +8077,116 @@
             </receiveEvent>
           </message>
           <message
-            Id="a0782522-fe1e-46c1-a861-c6a9fbb69b80"
-            name="Gemmer: Skader  i databasen "
+            Id="3ebe00b2-920f-4a97-988a-dd7fe3e50817"
+            name="Handler sender skade til Facade"
             messageKind="Complete"
             messageSort="SynchCall"
             createSelfMessage="false">
             <sendEvent>
               <messageOccurrenceSpecificationMoniker
-                Id="7b18e1b7-2d63-4968-99cc-df5af7b1a9f8"
-                LastKnownName="MessageOccurrenceSpecification47"
+                Id="fb9fd3bd-3452-4b43-b4c3-306c6dbd9992"
+                LastKnownName="MessageOccurrenceSpecification59"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </sendEvent>
             <receiveEvent>
               <messageOccurrenceSpecificationMoniker
-                Id="9bb50104-aaa2-4373-8833-fa7208b8943a"
-                LastKnownName="MessageOccurrenceSpecification48"
+                Id="5a923dea-be65-4bfd-b56c-c98589f3e96c"
+                LastKnownName="MessageOccurrenceSpecification60"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </receiveEvent>
           </message>
           <message
-            Id="7227ab66-3671-48a3-9ae8-f147a96915f0"
-            name="retunere besked om at de er gemt"
+            Id="ff71881f-e5a2-4063-86b2-2ef4bff3123b"
+            name="Facade sender til Webservice"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="00f6315e-0aa9-4815-8d67-f794198e6a15"
+                LastKnownName="MessageOccurrenceSpecification81"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="275cb144-a888-4fca-90a7-36e04e617ec8"
+                LastKnownName="MessageOccurrenceSpecification82"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="dd46884d-6ef5-4907-a1e1-1ff4603e8946"
+            name="Werservice sender til DB"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="48a4864c-f5c6-4466-8abb-e0d485106812"
+                LastKnownName="MessageOccurrenceSpecification91"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b69de47e-c854-4167-b19a-ceb65ae91613"
+                LastKnownName="MessageOccurrenceSpecification92"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="6d63695b-e969-4cc9-a18c-1eaf09987775"
+            name="DB sender svar"
             messageKind="Complete"
             messageSort="Reply"
             createSelfMessage="false">
             <sendEvent>
               <messageOccurrenceSpecificationMoniker
-                Id="a42d4e6e-19ab-465b-914a-0b96a2f0e41f"
-                LastKnownName="MessageOccurrenceSpecification49"
+                Id="d529eb98-8375-41ae-8a1a-fad4868b847d"
+                LastKnownName="MessageOccurrenceSpecification93"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </sendEvent>
             <receiveEvent>
               <messageOccurrenceSpecificationMoniker
-                Id="91ce4008-1bc0-4219-9900-de7f8840b9dd"
-                LastKnownName="MessageOccurrenceSpecification50"
+                Id="ab0bc166-cf1b-49ec-b6ad-bba51b9bea75"
+                LastKnownName="MessageOccurrenceSpecification94"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="cf4d43e9-a705-40ce-a527-4bcec1e1e048"
+            name="Webservice sender svar til facade"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="bdf20a8b-f3e0-4c45-aafe-75601385d8ad"
+                LastKnownName="MessageOccurrenceSpecification83"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="011e2770-27fe-42aa-8597-4502faed78bc"
+                LastKnownName="MessageOccurrenceSpecification84"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="adecc391-70da-4780-878c-5363dd39f1f3"
+            name="Facade sender svar"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="22a97935-0ed1-43ba-8c24-001237801c25"
+                LastKnownName="MessageOccurrenceSpecification61"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6ea6cdec-eb81-4eb9-8ead-81b7ef83cce2"
+                LastKnownName="MessageOccurrenceSpecification62"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </receiveEvent>
           </message>
@@ -7459,6 +8262,22 @@
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </type_NamedElement>
           </property>
+          <property
+            Id="799d3ba5-68c5-4363-af7e-aa44a18ddbb1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="eb1f015b-354c-454b-9449-e69369a06350"
+                LastKnownName="Placement"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
       </interaction>
     </packageHasNamedElement>
@@ -7490,16 +8309,6 @@
     <packageHasNamedElement>
       <executionEvent
         Id="e8872f95-25f5-413b-83f4-dbc2b14ad203"
-        name="ExecutionEvent" />
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <executionEvent
-        Id="92a7df1a-7c7e-4eca-9d1b-4d3feaf9cfb3"
-        name="ExecutionEvent" />
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <executionEvent
-        Id="47c1ebda-f290-4ab8-86cc-6f410e836aa3"
         name="ExecutionEvent" />
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -7605,7 +8414,7 @@
     <packageHasNamedElement>
       <class
         Id="0b2bd4ae-ec7f-4ddc-9852-860a53d13e37"
-        name="Damage Types"
+        name="DamageTypes"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -7648,6 +8457,620 @@
           </property>
         </ownedAttributesInternal>
       </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="5555eb0c-aa45-431b-91b2-465377d0f39a"
+        name="DamageTy" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="4ecee2f3-a287-4471-bbeb-f146945b0a88"
+        name="Damage Ty" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="53d3b802-1dee-43a4-b0af-5900a84afe3b"
+        name="DamageTypes" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3fc650a5-93b0-4598-b8a3-d145a02eca84"
+        name="Statue"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="7cafa9e1-f257-470f-b21c-7895bb86ca6b"
+            isDerived="false"
+            sourceEndRoleName="Statue"
+            targetEndRoleName="Placement"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="eb1f015b-354c-454b-9449-e69369a06350"
+              LastKnownName="Placement"
+              LastKnownLocation="Elaboration 2 Modeller.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2ff1d0ce-1899-401c-8a8b-6560f13d11e0"
+                  name="Statue"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a35f516d-009b-4d1b-875d-c846463b224b"
+                  name="Placement"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="2dc4f898-556c-4553-b414-82720f26fd18"
+                      name="Lower"
+                      value="Mange" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="3efc536e-f483-463f-83de-14ecd1b095c0"
+                      name="Upper"
+                      value="Mange" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="171cfb15-97b6-421e-95e9-36608c94ef01"
+            isDerived="false"
+            sourceEndRoleName="Statue"
+            targetEndRoleName="Material"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="ac9634e3-bb4a-47af-8dbc-e8943cacd115"
+              LastKnownName="Material"
+              LastKnownLocation="Elaboration 2 Modeller.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1cec7add-fd9e-47ea-826b-95f49b3ab8b6"
+                  name="Statue"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c11493d7-8337-4f33-b691-3b63e22084e5"
+                  name="Material"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b9d2a98b-0331-4c63-8d9a-a732fbfdcd9f"
+                      name="Lower"
+                      value="Mange" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2682ee0c-8226-4248-a3db-0a69f5657e76"
+                      name="Upper"
+                      value="Mange" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f8714e4e-ae7a-4181-8b86-e60b9b10728b"
+            isDerived="false"
+            sourceEndRoleName="Statue"
+            targetEndRoleName="CulturalValue"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="21cb40eb-c494-4133-8bf4-d3191ac32dfd"
+              LastKnownName="CulturalValue"
+              LastKnownLocation="Elaboration 2 Modeller.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b8c75f45-a3d3-462d-ac67-6aa8b0e5ffd6"
+                  name="Statue"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a0438751-729c-4b40-8959-b84d3dd4d3bc"
+                  name="CulturalValue"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="52aa761f-ab51-401e-b384-b090e7553be5"
+                      name="Lower"
+                      value="Mange" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a73424bd-25ad-4ef4-b3aa-8289e2f290e8"
+                      name="Upper"
+                      value="Mange" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="491e0bcf-7e2f-47b5-995a-f95a40456278"
+            isDerived="false"
+            sourceEndRoleName="Statue"
+            targetEndRoleName="Type"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="7fb5fbed-7911-4c5e-969c-d3b41d3479b9"
+              LastKnownName="Type"
+              LastKnownLocation="Elaboration 2 Modeller.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="435a930f-93d2-4cef-a49f-34350eb2e7d2"
+                  name="Statue"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="28cc5795-3411-407c-a6fb-458b391883d2"
+                  name="Type"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="de879f8b-5181-43a5-9132-0d40c3acc174"
+                      name="Lower"
+                      value="Mange" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="662865ba-6410-4afe-bfd5-e8f6a6ca55f4"
+                      name="Upper"
+                      value="Mange" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="6e5a76c4-2f5b-4c40-ad9e-5446bd60692e"
+            isDerived="false"
+            sourceEndRoleName="Statue"
+            targetEndRoleName="Image"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="e493b137-7241-4f5d-a774-efbf43b5d416"
+              LastKnownName="Image"
+              LastKnownLocation="Elaboration 2 Modeller.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="17b46ce7-3b7c-4a59-b786-ce5b9dd5cf03"
+                  name="Statue"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2a237cdb-05f2-4bbf-bd39-39fea77fa1d3"
+                  name="Image"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f051594c-7fe8-4bdb-89e7-1d3fc685dbbc"
+                      name="Lower"
+                      value="Mange" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="7a2de1ea-ed5e-4fbd-90df-a7dd6c6ee6ca"
+                      name="Upper"
+                      value="Mange" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="de0569fa-bf78-451a-86c0-c5becf735fe8"
+            name="int Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="527e6e8f-cdfc-4c92-8fc2-230357fc9306"
+            name="string Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="91a8d448-c0e5-4ab3-ae07-927b200d2535"
+            name="string Address"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="f99a83d4-5d5f-4052-88ec-733291bca696"
+            name="string Zipcode"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="f8134bbd-611a-47ee-8a92-a6d463f0ad4d"
+            name="string GPSLocation"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="e110d193-389a-4889-9e50-e524aa1bfc3d"
+            name="DateTime Created"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="4d0cb8e6-24cc-499d-9c04-9d96877cca0d"
+            name="List&lt;Placement&gt; PlacementList"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="b4384a7b-1046-4d76-a72a-f70cce75f000"
+            name="List&lt;CulturalValue&gt; CulturalValueList"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="e7447bf3-31f2-401f-ab7c-d4875a62e1ae"
+            name="List&lt;Material&gt; MaterialList"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="e6a7689a-cb42-420a-ae85-ea42d788f57f"
+            name="List&lt;Type&gt; TypeList"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="dd70aba0-121e-4bed-84eb-2ccd85b36704"
+            name="List&lt;Image&gt; ImageList"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="21cb40eb-c494-4133-8bf4-d3191ac32dfd"
+        name="CulturalValue"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="8d4a0ea4-f805-485f-bc11-780ee174d533"
+            name="int Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="97d5fa9d-d12e-4c0d-b7c6-ec371172a7cf"
+            name="int Value"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ac9634e3-bb4a-47af-8dbc-e8943cacd115"
+        name="Material"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="11a5b403-5674-48b2-9f29-362c5ada9d49"
+            name="int Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="f147abd6-a371-44d9-b30a-a9a390605240"
+            name="int Value"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="eb1f015b-354c-454b-9449-e69369a06350"
+        name="Placement"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="17d812be-70bf-4fd8-abb1-a263b6cc130d"
+            name="int Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="966a5847-c320-40e1-ad3c-6c73b0a57a26"
+            name="int Value"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7fb5fbed-7911-4c5e-969c-d3b41d3479b9"
+        name="Type"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="81a6adfd-0853-4cf0-8546-291fb17d6322"
+            name="int Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="c525acbe-c2cd-45ea-a771-af947a8da539"
+            name="int Value"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e493b137-7241-4f5d-a774-efbf43b5d416"
+        name="Image"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="1c85b2b0-4869-4116-a7c3-1f9ddf2001d7"
+            name="int Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="5795b07e-1e3e-4416-bc26-748442fd4c62"
+            name="int Value"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="01862a55-78ba-44ad-bb1c-8a509767abd2"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="45473e10-9661-4811-a5b0-e335c8aa036d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="51f1b379-43d8-444a-94bc-2209d6531169"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b1be4474-230c-4217-b1ee-2aa8f588cc35"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="e6767639-f941-45d7-a5fc-e2e301436da6"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7e0e9bae-429f-4884-ad19-945987ed0ecd"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b8df7582-1eb7-43f4-ba23-a0a42448817d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7024dbe1-484b-4e39-b10a-4d3633b4e6f8"
+        name="ExecutionEvent" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
