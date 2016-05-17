@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="a36cf28d-a33e-4f56-baf9-2be42226af02" name="Classdiagram" linkedPackageId="958b5bb9-1680-463e-bb4d-e66486e6ef19" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="a36cf28d-a33e-4f56-baf9-2be42226af02" name="Classdiagram" linkedPackageId="958b5bb9-1680-463e-bb4d-e66486e6ef19" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
   <packagedElements>
     <packageHasNamedElement>
       <referencedType Id="56636676-7ac7-4399-b42d-ecb3455b8ffc" name="StatueDatabase-ClassDiagram::Model::Statue" isAbstract="false" isLeaf="false" cachedFullName="StatueDatabase-ClassDiagram::Model::Statue">
@@ -302,7 +302,7 @@
                 <property Id="9bd3e726-93ec-48d3-8fc3-e6f3da345d64" name="FK_Type" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
                   <elementDefinition Id="c4291b80-8727-45c1-9c8e-c39612a651f2" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="394acaba-c265-453c-a171-408ee5a61c8f" LastKnownName="Integer" />
+                    <referencedTypeMoniker Id="a2fac45b-3247-41f5-b7a4-b34ceb3f2203" LastKnownName="int" />
                   </type_NamedElement>
                 </property>
                 <property Id="c3ee7cff-cf44-464c-bb0b-269ac80970a6" name="DamageText" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
@@ -314,7 +314,7 @@
                 <property Id="4748369c-fe45-41a1-b655-924fee03920f" name="FK_Placement" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
                   <elementDefinition Id="df802e3a-bb3c-47e0-9f0c-1e2b0aa73ac3" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="39a97f98-9845-4fad-b0f5-0ab905a7052e" LastKnownName="Integer" />
+                    <referencedTypeMoniker Id="ac642589-b6d5-4afc-90e8-d480b7d0ffd7" LastKnownName="int" />
                   </type_NamedElement>
                 </property>
                 <property Id="0848f618-4bf1-4a8a-9497-6676b924c976" name="Severity" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
@@ -741,13 +741,13 @@
       </referencedType>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <referencedType Id="394acaba-c265-453c-a171-408ee5a61c8f" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
-        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      <referencedType Id="ac642589-b6d5-4afc-90e8-d480b7d0ffd7" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7e35867a-3876-4cd5-91ca-a3efb652afc5" />
       </referencedType>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <referencedType Id="39a97f98-9845-4fad-b0f5-0ab905a7052e" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
-        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      <referencedType Id="a2fac45b-3247-41f5-b7a4-b34ceb3f2203" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7e35867a-3876-4cd5-91ca-a3efb652afc5" />
       </referencedType>
     </packageHasNamedElement>
   </packagedElements>

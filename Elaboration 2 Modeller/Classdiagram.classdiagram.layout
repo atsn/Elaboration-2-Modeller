@@ -109,7 +109,7 @@
         <classShapeMoniker Id="98037c7f-46ce-47c0-9a07-bd6e28858324" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(4.68579326940653 : 2.81249998013178); (4.68579326940653 : 3.75)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="1" targetMultiplicity="1">
+    <associationConnector edgePoints="[(4.68579326940653 : 2.81249998013178); (4.68579326940653 : 3.75)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="1" targetMultiplicity="1">
       <associationMoniker Id="cba10cb8-976d-4edc-a322-77efe04abfdf" />
       <relativeChildShapes />
       <nodes>
@@ -136,7 +136,7 @@
         </classShape>
       </nestedChildShapes>
     </packageShape>
-    <associationConnector edgePoints="[(9.5 : 4.3730473377471); (12.0625 : 4.3730473377471); (12.0625 : 3.93359369536241)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="1" targetMultiplicity="1">
+    <associationConnector edgePoints="[(9.5 : 4.3730473377471); (12.0625 : 4.3730473377471); (12.0625 : 3.93359369536241)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="1" targetMultiplicity="1">
       <associationMoniker Id="95a08176-7ae0-419f-9a69-1a6a0a201837" />
       <relativeChildShapes />
       <moveableDecoratorHostShapes>
@@ -193,7 +193,7 @@
         <classShapeMoniker Id="b78f7f65-41fe-45d8-b353-42d20e2c8090" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(13.75 : 2.76367185761531); (14.6041666666667 : 2.76367185761531 : JumpStart); (14.7708333333333 : 2.76367185761531 : JumpEnd); (15.875 : 2.76367185761531)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="1" targetMultiplicity="1">
+    <associationConnector edgePoints="[(13.75 : 2.76367185761531); (15.875 : 2.76367185761531)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="1" targetMultiplicity="1">
       <associationMoniker Id="439bb336-c157-4467-ae7e-8012e6c32549" />
       <relativeChildShapes />
       <moveableDecoratorHostShapes>
