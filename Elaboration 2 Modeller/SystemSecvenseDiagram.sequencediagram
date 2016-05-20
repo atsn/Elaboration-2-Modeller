@@ -18,7 +18,7 @@
           </comment>
           <comment Id="21210ee2-af1c-46c6-9ba1-c5d5872fba30">
             <elementDefinition Id="dfc90fec-23ad-44f6-aa78-459c6da28706" />
-            <body>Bruger interface Sender Bruger til vis statue Skærmbillede</body>
+            <body>Bruger Interface Sender Bruger til vis statue Skærmbillede</body>
           </comment>
           <comment Id="2960daf4-f4f6-438c-92c3-7b2dd32051b6">
             <elementDefinition Id="8ab3d5f7-c4e6-43b1-ba77-43c58bb203b5" />
@@ -26,15 +26,15 @@
           </comment>
           <comment Id="d9ba0824-1e88-4a4d-b6f8-91530ec0a5ee">
             <elementDefinition Id="f64c677d-760a-4276-91b6-9cfc43e47442" />
-            <body>Bruger interface Sender Bruger til Opret skade Skærmbillede</body>
+            <body>Bruger Interface Sender Bruger til Opret skade Skærmbillede</body>
           </comment>
           <comment Id="55eafa5f-d5b4-46cc-8005-d7830cedb7b9">
             <elementDefinition Id="5287893c-6de9-4eae-9698-64b33bc1563c" />
-            <body>Bruger indtaster skadeoplysninger og klikker gæm skade</body>
+            <body>Bruger indtaster skadeoplysninger og klikker gem skade</body>
           </comment>
           <comment Id="f6f6d77b-7744-4154-88bb-deadf09e6470">
             <elementDefinition Id="c9406be8-b145-48ed-b698-863e5246abc4" />
-            <body>System Gemmer statue og forteller Brugerinterfaace at statuen er gemt</body>
+            <body>System gemmer skade og forteller Brugerinterface at skaden er gemt</body>
           </comment>
           <comment Id="e4f1687e-145d-4d05-b14d-82975c21f3ad">
             <elementDefinition Id="940c7eb3-61e1-43e3-8868-8e2aedc2d3b6" />
@@ -42,19 +42,19 @@
           </comment>
           <comment Id="34a4296e-cda8-4699-9e3d-d98960cf78ad">
             <elementDefinition Id="9cd7ca1f-c99e-4d0e-8a27-2313f056e44e" />
-            <body>Bruger retter fejlende</body>
+            <body>Bruger retter fejlene</body>
           </comment>
           <comment Id="f87c8d0d-3b5e-40bd-9bd9-a889e8abceb2">
             <elementDefinition Id="a56a1276-29c9-43c9-b069-ecbe3757072d" />
-            <body>Bruger Inteface sender Vælg Statue vidre</body>
+            <body>Bruger Interface sender Vælg Statue Videre </body>
           </comment>
           <comment Id="d4c8ce88-a306-4adb-b2f4-5d4e46b071d5">
             <elementDefinition Id="3d2994b0-92d6-48e0-8b14-ff2675b90bbf" />
-            <body>Bruger Inteface viser Vælg Statue Billed</body>
+            <body>Bruger Interface viser Vælg Statue Billede </body>
           </comment>
           <comment Id="2b681143-5c33-4b8e-bfa3-f84171a61032">
             <elementDefinition Id="948f06cd-5df7-40b8-b6a2-96f798e44abc" />
-            <body>Bruger Inteface sender Velg statue vidre</body>
+            <body>Bruger Interface sender Velg statue Videre </body>
           </comment>
           <comment Id="525568cc-ccb6-4f47-8998-a7a0201f2005">
             <elementDefinition Id="7ef215dc-4343-44fc-ae57-db0b2dc74860" />
@@ -62,7 +62,7 @@
           </comment>
           <comment Id="9d60b3a8-10e1-40cf-bdbc-093e7613338a">
             <elementDefinition Id="ad994df7-4776-4612-9880-a2c1e1b13200" />
-            <body>Bruger Inteface sender opret skade vidre</body>
+            <body>Bruger Interface sender opret skade Videre </body>
           </comment>
           <comment Id="f141c194-2129-4712-9a89-5b4d33d6639f">
             <elementDefinition Id="562c1d35-7b39-4492-b40a-eddc69a7209d" />
@@ -70,7 +70,7 @@
           </comment>
           <comment Id="38c20b46-6c65-4871-b378-c318e98fa6d9">
             <elementDefinition Id="85f404dd-ec3c-4001-93e9-74d504fbf2c5" />
-            <body>Bruger Inteface sender Oplysnger +i Gem skade vidre</body>
+            <body>Bruger Interface sender Oplysninger +i Gem skade Videre </body>
           </comment>
           <comment Id="f3d6883f-1cac-4673-9f19-05d2d4b6a747">
             <elementDefinition Id="73f2ce4d-735a-478e-b285-9aca46e893b3" />
@@ -78,11 +78,11 @@
           </comment>
           <comment Id="df2cc4d0-a1b8-44c1-82c8-3140f90691b0">
             <elementDefinition Id="387590f2-0a53-4e1e-bc14-b4ef92f7c3f6" />
-            <body>Bruger Inteface sender Rettelser vidre</body>
+            <body>Bruger Interface sender Rettelser Videre </body>
           </comment>
           <comment Id="7c96fa50-1ea3-41b9-81e4-0cadf01a694e">
             <elementDefinition Id="32c05e0c-7c26-46d6-9dd1-a0a48bc0b064" />
-            <body>Brugerinterfaace forteller brugerenat statuen er gemt</body>
+            <body>Brugerinterface fortæller brugeren at statuen er gemt</body>
           </comment>
         </ownedCommentsInternal>
         <elementDefinition Id="7caff83f-87f6-4f87-a4c6-90bb68cc5dff" />
@@ -167,16 +167,16 @@
               <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
             </covered>
           </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification Id="bb982dc4-94e9-49c3-8006-e6cab1eb028d" name="MessageOccurrenceSpecification29">
-            <elementDefinition Id="72dd30d6-f917-49b6-acc2-b5822a810b18" />
-            <covered>
-              <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
-            </covered>
-          </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="6115cc6f-26c5-4343-8b41-7f42b0bb5b00" name="MessageOccurrenceSpecification30">
             <elementDefinition Id="a30c01b1-e639-4bf3-9361-aeee0f3db1b2" />
             <covered>
               <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="bb982dc4-94e9-49c3-8006-e6cab1eb028d" name="MessageOccurrenceSpecification29">
+            <elementDefinition Id="72dd30d6-f917-49b6-acc2-b5822a810b18" />
+            <covered>
+              <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
             </covered>
           </messageOccurrenceSpecification>
           <executionOccurrenceSpecification Id="58b80023-6b78-44b5-b636-a5ae77a830bc" name="ExecutionOccurrenceSpecification16">
@@ -556,17 +556,17 @@
           <combinedFragment Id="0d99a6e2-f156-414e-a173-57ba521f6811" name="CombinedFragment1" interactionOperator="Loop">
             <elementDefinition Id="a64c429b-6050-4d9a-b13c-579d569544f2" />
             <coveredLifelines>
+              <lifelineMoniker Id="c950cf8d-298d-4b61-ab4d-e4ed72381800" LastKnownName="Bruger" />
               <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
               <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
-              <lifelineMoniker Id="c950cf8d-298d-4b61-ab4d-e4ed72381800" LastKnownName="Bruger" />
             </coveredLifelines>
             <operands>
               <interactionOperand Id="3e9ed57b-c05b-40ee-9960-d649eec29b37" name="InteractionOperand1">
                 <elementDefinition Id="8d6e7090-da0a-4862-9262-1a1954a061c2" />
                 <coveredLifelines>
+                  <lifelineMoniker Id="c950cf8d-298d-4b61-ab4d-e4ed72381800" LastKnownName="Bruger" />
                   <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
                   <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
-                  <lifelineMoniker Id="c950cf8d-298d-4b61-ab4d-e4ed72381800" LastKnownName="Bruger" />
                 </coveredLifelines>
                 <guard>
                   <interactionConstraint Id="4fd1c4be-d18b-4815-aea0-e29a38cf82e2">
@@ -641,16 +641,16 @@
               <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
             </covered>
           </executionOccurrenceSpecification>
-          <messageOccurrenceSpecification Id="4dcd8e09-f052-4468-a25c-6dc4b94b1c70" name="MessageOccurrenceSpecification56">
-            <elementDefinition Id="ca61a925-fc0a-41d5-bad4-a67124c74892" />
-            <covered>
-              <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
-            </covered>
-          </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="6165e3f7-ad53-4231-80d9-d4e459c0d807" name="MessageOccurrenceSpecification55">
             <elementDefinition Id="308ec798-d08e-4345-9146-6b7da3438322" />
             <covered>
               <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="4dcd8e09-f052-4468-a25c-6dc4b94b1c70" name="MessageOccurrenceSpecification56">
+            <elementDefinition Id="ca61a925-fc0a-41d5-bad4-a67124c74892" />
+            <covered>
+              <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
             </covered>
           </messageOccurrenceSpecification>
           <behaviorExecutionSpecification Id="7e2f9f43-c4b8-45b7-8e33-01e8cf1a5cd5" name="BehaviorExecutionSpecification16">
@@ -715,16 +715,16 @@
               <lifelineMoniker Id="c950cf8d-298d-4b61-ab4d-e4ed72381800" LastKnownName="Bruger" />
             </covered>
           </executionOccurrenceSpecification>
-          <messageOccurrenceSpecification Id="908012c8-ca8e-47d6-aaa1-1a908117abd4" name="MessageOccurrenceSpecification57">
-            <elementDefinition Id="874d1743-9f2f-4b46-8bb3-54d29a70a84a" />
-            <covered>
-              <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
-            </covered>
-          </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="0f64ccb2-fdcd-48c1-9edd-75ab4f058964" name="MessageOccurrenceSpecification58">
             <elementDefinition Id="c35f4e5f-3953-4e1b-84d8-07ccc10849b6" />
             <covered>
               <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="908012c8-ca8e-47d6-aaa1-1a908117abd4" name="MessageOccurrenceSpecification57">
+            <elementDefinition Id="874d1743-9f2f-4b46-8bb3-54d29a70a84a" />
+            <covered>
+              <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
             </covered>
           </messageOccurrenceSpecification>
           <executionOccurrenceSpecification Id="b7fc890e-2266-4a1f-aa59-b1df636924ba" name="ExecutionOccurrenceSpecification30">
@@ -779,16 +779,16 @@
               <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
             </covered>
           </executionOccurrenceSpecification>
-          <messageOccurrenceSpecification Id="ecfe6340-e171-4e20-a53d-c7ee5c936b65" name="MessageOccurrenceSpecification49">
-            <elementDefinition Id="2065b9c5-8509-4e3e-a08a-26a4527b4355" />
-            <covered>
-              <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
-            </covered>
-          </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="0a85b8ef-ba19-44d8-aa01-eb934234daf7" name="MessageOccurrenceSpecification50">
             <elementDefinition Id="c855f95e-9091-4568-bd26-eb6648be0aa1" />
             <covered>
               <lifelineMoniker Id="c950cf8d-298d-4b61-ab4d-e4ed72381800" LastKnownName="Bruger" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="ecfe6340-e171-4e20-a53d-c7ee5c936b65" name="MessageOccurrenceSpecification49">
+            <elementDefinition Id="2065b9c5-8509-4e3e-a08a-26a4527b4355" />
+            <covered>
+              <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
             </covered>
           </messageOccurrenceSpecification>
           <executionOccurrenceSpecification Id="51f91404-5744-4a60-8db6-b8c7f2e03a3a" name="ExecutionOccurrenceSpecification26">
@@ -867,7 +867,7 @@
               <messageOccurrenceSpecificationMoniker Id="35ab9c13-b5fa-4d0b-a5fc-90aa7362a36a" LastKnownName="MessageOccurrenceSpecification28" />
             </receiveEvent>
           </message>
-          <message Id="438e00f3-1e3c-4beb-8e17-33237543fc50" name="Vælg Statue Billed" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+          <message Id="438e00f3-1e3c-4beb-8e17-33237543fc50" name="Vælg Statue Billede " messageKind="Complete" messageSort="Reply" createSelfMessage="false">
             <elementDefinition Id="7708b9fd-9708-4f35-bf58-862ab5ffd22a" />
             <sendEvent>
               <messageOccurrenceSpecificationMoniker Id="bb982dc4-94e9-49c3-8006-e6cab1eb028d" LastKnownName="MessageOccurrenceSpecification29" />
@@ -876,7 +876,7 @@
               <messageOccurrenceSpecificationMoniker Id="6115cc6f-26c5-4343-8b41-7f42b0bb5b00" LastKnownName="MessageOccurrenceSpecification30" />
             </receiveEvent>
           </message>
-          <message Id="28426dd8-6938-4249-8eaa-a31122747b2d" name="Vælg statue billed" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+          <message Id="28426dd8-6938-4249-8eaa-a31122747b2d" name="Vælg statue Billede" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
             <elementDefinition Id="74657950-ea3d-4e66-bdec-ebda1f20dcb6" />
             <sendEvent>
               <messageOccurrenceSpecificationMoniker Id="5aaff4d0-f9ad-4fec-8a61-f70fac0e2e1e" LastKnownName="MessageOccurrenceSpecification25" />
@@ -948,7 +948,7 @@
               <messageOccurrenceSpecificationMoniker Id="37b4f09f-035a-48c0-be07-0f846dc7d352" LastKnownName="MessageOccurrenceSpecification46" />
             </receiveEvent>
           </message>
-          <message Id="51c52f8f-4c9e-4f9f-bef9-2c890b9ca280" name="Opret Skade Billed" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+          <message Id="51c52f8f-4c9e-4f9f-bef9-2c890b9ca280" name="Opret Skade Billede" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
             <elementDefinition Id="03d69295-5a27-4979-93e5-f9ccae509487" />
             <sendEvent>
               <messageOccurrenceSpecificationMoniker Id="b26329e7-e0c6-4460-9072-202d7fac769f" LastKnownName="MessageOccurrenceSpecification41" />

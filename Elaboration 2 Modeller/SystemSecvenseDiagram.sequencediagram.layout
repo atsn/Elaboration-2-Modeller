@@ -232,7 +232,7 @@
         <lifelineShapeMoniker Id="347e3973-f206-431c-84df-ceeaa4290a18" />
       </nodes>
     </returnMessageConnector>
-    <syncMessageConnector edgePoints="[(8.09791650772095 : 7.53958333333333); (11.8333334922791 : 7.53958333333334)]" fixedFrom="Caller" fixedTo="Caller" TargetRelationshipDomainClassId="e24617ce-6c7e-4c7d-802a-63014f02e313" customColor="Black" visible="true" visualStyleMode="Modified" messageId="00000000-0000-0000-0000-000000000000">
+    <syncMessageConnector edgePoints="[(8.09791650772095 : 7.53958333333333); (11.8333334922791 : 7.53958333333333)]" fixedFrom="Caller" fixedTo="Caller" TargetRelationshipDomainClassId="e24617ce-6c7e-4c7d-802a-63014f02e313" customColor="Black" visible="true" visualStyleMode="Modified" messageId="00000000-0000-0000-0000-000000000000">
       <relativeChildShapes />
       <nodes>
         <umlExecutionSpecificationShapeMoniker Id="97f2a237-08be-44a9-96a6-cf8187bbf1a1" />

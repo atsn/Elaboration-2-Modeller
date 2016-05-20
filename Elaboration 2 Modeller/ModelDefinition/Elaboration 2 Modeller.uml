@@ -5602,7 +5602,7 @@
           </comment>
           <comment
             Id="dfc90fec-23ad-44f6-aa78-459c6da28706">
-            <body>Bruger interface Sender Bruger til vis statue Skærmbillede</body>
+            <body>Bruger Interface Sender Bruger til vis statue Skærmbillede</body>
           </comment>
           <comment
             Id="8ab3d5f7-c4e6-43b1-ba77-43c58bb203b5">
@@ -5610,15 +5610,15 @@
           </comment>
           <comment
             Id="f64c677d-760a-4276-91b6-9cfc43e47442">
-            <body>Bruger interface Sender Bruger til Opret skade Skærmbillede</body>
+            <body>Bruger Interface Sender Bruger til Opret skade Skærmbillede</body>
           </comment>
           <comment
             Id="5287893c-6de9-4eae-9698-64b33bc1563c">
-            <body>Bruger indtaster skadeoplysninger og klikker gæm skade</body>
+            <body>Bruger indtaster skadeoplysninger og klikker gem skade</body>
           </comment>
           <comment
             Id="c9406be8-b145-48ed-b698-863e5246abc4">
-            <body>System Gemmer statue og forteller Brugerinterfaace at statuen er gemt</body>
+            <body>System gemmer skade og forteller Brugerinterface at skaden er gemt</body>
           </comment>
           <comment
             Id="940c7eb3-61e1-43e3-8868-8e2aedc2d3b6">
@@ -5626,19 +5626,19 @@
           </comment>
           <comment
             Id="9cd7ca1f-c99e-4d0e-8a27-2313f056e44e">
-            <body>Bruger retter fejlende</body>
+            <body>Bruger retter fejlene</body>
           </comment>
           <comment
             Id="a56a1276-29c9-43c9-b069-ecbe3757072d">
-            <body>Bruger Inteface sender Vælg Statue vidre</body>
+            <body>Bruger Interface sender Vælg Statue Videre </body>
           </comment>
           <comment
             Id="3d2994b0-92d6-48e0-8b14-ff2675b90bbf">
-            <body>Bruger Inteface viser Vælg Statue Billed</body>
+            <body>Bruger Interface viser Vælg Statue Billede </body>
           </comment>
           <comment
             Id="948f06cd-5df7-40b8-b6a2-96f798e44abc">
-            <body>Bruger Inteface sender Velg statue vidre</body>
+            <body>Bruger Interface sender Velg statue Videre </body>
           </comment>
           <comment
             Id="7ef215dc-4343-44fc-ae57-db0b2dc74860">
@@ -5646,7 +5646,7 @@
           </comment>
           <comment
             Id="ad994df7-4776-4612-9880-a2c1e1b13200">
-            <body>Bruger Inteface sender opret skade vidre</body>
+            <body>Bruger Interface sender opret skade Videre </body>
           </comment>
           <comment
             Id="562c1d35-7b39-4492-b40a-eddc69a7209d">
@@ -5654,7 +5654,7 @@
           </comment>
           <comment
             Id="85f404dd-ec3c-4001-93e9-74d504fbf2c5">
-            <body>Bruger Inteface sender Oplysnger +i Gem skade vidre</body>
+            <body>Bruger Interface sender Oplysninger +i Gem skade Videre </body>
           </comment>
           <comment
             Id="73f2ce4d-735a-478e-b285-9aca46e893b3">
@@ -5662,11 +5662,11 @@
           </comment>
           <comment
             Id="387590f2-0a53-4e1e-bc14-b4ef92f7c3f6">
-            <body>Bruger Inteface sender Rettelser vidre</body>
+            <body>Bruger Interface sender Rettelser Videre </body>
           </comment>
           <comment
             Id="32c05e0c-7c26-46d6-9dd1-a0a48bc0b064">
-            <body>Brugerinterfaace forteller brugerenat statuen er gemt</body>
+            <body>Brugerinterface fortæller brugeren at statuen er gemt</body>
           </comment>
         </ownedCommentsInternal>
         <fragments>
@@ -7142,7 +7142,7 @@
           </message>
           <message
             Id="7708b9fd-9708-4f35-bf58-862ab5ffd22a"
-            name="Vælg Statue Billed"
+            name="Vælg Statue Billede "
             messageKind="Complete"
             messageSort="Reply"
             createSelfMessage="false">
@@ -7161,7 +7161,7 @@
           </message>
           <message
             Id="74657950-ea3d-4e66-bdec-ebda1f20dcb6"
-            name="Vælg statue billed"
+            name="Vælg statue Billede"
             messageKind="Complete"
             messageSort="Reply"
             createSelfMessage="false">
@@ -7313,7 +7313,7 @@
           </message>
           <message
             Id="03d69295-5a27-4979-93e5-f9ccae509487"
-            name="Opret Skade Billed"
+            name="Opret Skade Billede"
             messageKind="Complete"
             messageSort="Reply"
             createSelfMessage="false">
@@ -7962,22 +7962,22 @@
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="32f5cb2e-7def-4664-b116-b71feae63d5c"
-            name="MessageOccurrenceSpecification13">
-            <covered>
-              <lifelineMoniker
-                Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
-                LastKnownName="Skade"
-                LastKnownLocation="Elaboration 2 Modeller.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="6a3ed82b-2de8-4dae-877a-8ffee1265047"
             name="MessageOccurrenceSpecification14">
             <covered>
               <lifelineMoniker
                 Id="ccbd6e21-8f58-4716-9bb0-5408ba98d5b6"
                 LastKnownName="Handler"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="32f5cb2e-7def-4664-b116-b71feae63d5c"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="3a9fee0b-2838-4315-83f0-3fc4face6866"
+                LastKnownName="Skade"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -8226,22 +8226,22 @@
             </covered>
           </messageOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="d529eb98-8375-41ae-8a1a-fad4868b847d"
-            name="MessageOccurrenceSpecification93">
-            <covered>
-              <lifelineMoniker
-                Id="84d55730-f235-4a82-9603-be403af9af4f"
-                LastKnownName="Database"
-                LastKnownLocation="Elaboration 2 Modeller.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="ab0bc166-cf1b-49ec-b6ad-bba51b9bea75"
             name="MessageOccurrenceSpecification94">
             <covered>
               <lifelineMoniker
                 Id="1ebce8e0-d995-4842-a65a-5ab70d00eca6"
                 LastKnownName="Webservice"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d529eb98-8375-41ae-8a1a-fad4868b847d"
+            name="MessageOccurrenceSpecification93">
+            <covered>
+              <lifelineMoniker
+                Id="84d55730-f235-4a82-9603-be403af9af4f"
+                LastKnownName="Database"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -8378,22 +8378,22 @@
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="8e25e1f5-c3ba-4a9d-b96c-cd6fa41cacca"
-            name="MessageOccurrenceSpecification3">
-            <covered>
-              <lifelineMoniker
-                Id="0cdebbf5-5562-4ba1-a402-5ba7474d8f26"
-                LastKnownName="Bruger interface"
-                LastKnownLocation="Elaboration 2 Modeller.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="80f958eb-b10a-44fa-b4ac-34efe32b0eee"
             name="MessageOccurrenceSpecification4">
             <covered>
               <lifelineMoniker
                 Id="a0f4230c-fa34-4d78-93b7-2bf805510d35"
                 LastKnownName="Bruger"
+                LastKnownLocation="Elaboration 2 Modeller.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8e25e1f5-c3ba-4a9d-b96c-cd6fa41cacca"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="0cdebbf5-5562-4ba1-a402-5ba7474d8f26"
+                LastKnownName="Bruger interface"
                 LastKnownLocation="Elaboration 2 Modeller.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -8589,7 +8589,7 @@
           </message>
           <message
             Id="d783a165-34b0-49ad-a35b-7ead26f45a40"
-            name="s"
+            name="Bruger interface sender opret skade til handler"
             messageKind="Complete"
             messageSort="SynchCall"
             createSelfMessage="false">
@@ -8703,7 +8703,7 @@
           </message>
           <message
             Id="8a48d0b9-ff7d-409b-a8fd-ca61148d0e10"
-            name="Retunere Skade"
+            name="Returnere Skade"
             messageKind="Complete"
             messageSort="Reply"
             createSelfMessage="false">
@@ -8836,7 +8836,7 @@
           </message>
           <message
             Id="c35cc236-d131-4a65-869a-0e840b59f1f5"
-            name="Sender bekræftelse af at Skaden er oprrettet"
+            name="Sender bekræftelse af at Skaden er oprettet"
             messageKind="Complete"
             messageSort="Reply"
             createSelfMessage="false">
