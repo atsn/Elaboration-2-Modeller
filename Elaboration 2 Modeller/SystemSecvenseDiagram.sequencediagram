@@ -34,11 +34,11 @@
           </comment>
           <comment Id="f6f6d77b-7744-4154-88bb-deadf09e6470">
             <elementDefinition Id="c9406be8-b145-48ed-b698-863e5246abc4" />
-            <body>System gemmer skade og forteller Brugerinterface at skaden er gemt</body>
+            <body>System gemmer skade og fortæller Brugerinterface at skaden er gemt</body>
           </comment>
           <comment Id="e4f1687e-145d-4d05-b14d-82975c21f3ad">
             <elementDefinition Id="940c7eb3-61e1-43e3-8868-8e2aedc2d3b6" />
-            <body>BrugerInterface fortæller evt. brugeren om fejl brugeren skal rette</body>
+            <body>BrugerInterface fortæller evt. brugeren om fejl der skal rettes.</body>
           </comment>
           <comment Id="34a4296e-cda8-4699-9e3d-d98960cf78ad">
             <elementDefinition Id="9cd7ca1f-c99e-4d0e-8a27-2313f056e44e" />
@@ -54,7 +54,7 @@
           </comment>
           <comment Id="2b681143-5c33-4b8e-bfa3-f84171a61032">
             <elementDefinition Id="948f06cd-5df7-40b8-b6a2-96f798e44abc" />
-            <body>Bruger Interface sender Velg statue Videre </body>
+            <body>Bruger Interface sender Vælg statue Videre </body>
           </comment>
           <comment Id="525568cc-ccb6-4f47-8998-a7a0201f2005">
             <elementDefinition Id="7ef215dc-4343-44fc-ae57-db0b2dc74860" />
@@ -82,7 +82,7 @@
           </comment>
           <comment Id="7c96fa50-1ea3-41b9-81e4-0cadf01a694e">
             <elementDefinition Id="32c05e0c-7c26-46d6-9dd1-a0a48bc0b064" />
-            <body>Brugerinterface fortæller brugeren at statuen er gemt</body>
+            <body>Brugerinterface fortæller brugeren at skaden er gemt</body>
           </comment>
         </ownedCommentsInternal>
         <elementDefinition Id="7caff83f-87f6-4f87-a4c6-90bb68cc5dff" />
@@ -167,16 +167,16 @@
               <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
             </covered>
           </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification Id="6115cc6f-26c5-4343-8b41-7f42b0bb5b00" name="MessageOccurrenceSpecification30">
-            <elementDefinition Id="a30c01b1-e639-4bf3-9361-aeee0f3db1b2" />
-            <covered>
-              <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
-            </covered>
-          </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="bb982dc4-94e9-49c3-8006-e6cab1eb028d" name="MessageOccurrenceSpecification29">
             <elementDefinition Id="72dd30d6-f917-49b6-acc2-b5822a810b18" />
             <covered>
               <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6115cc6f-26c5-4343-8b41-7f42b0bb5b00" name="MessageOccurrenceSpecification30">
+            <elementDefinition Id="a30c01b1-e639-4bf3-9361-aeee0f3db1b2" />
+            <covered>
+              <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
             </covered>
           </messageOccurrenceSpecification>
           <executionOccurrenceSpecification Id="58b80023-6b78-44b5-b636-a5ae77a830bc" name="ExecutionOccurrenceSpecification16">
@@ -641,16 +641,16 @@
               <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
             </covered>
           </executionOccurrenceSpecification>
-          <messageOccurrenceSpecification Id="6165e3f7-ad53-4231-80d9-d4e459c0d807" name="MessageOccurrenceSpecification55">
-            <elementDefinition Id="308ec798-d08e-4345-9146-6b7da3438322" />
-            <covered>
-              <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
-            </covered>
-          </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="4dcd8e09-f052-4468-a25c-6dc4b94b1c70" name="MessageOccurrenceSpecification56">
             <elementDefinition Id="ca61a925-fc0a-41d5-bad4-a67124c74892" />
             <covered>
               <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6165e3f7-ad53-4231-80d9-d4e459c0d807" name="MessageOccurrenceSpecification55">
+            <elementDefinition Id="308ec798-d08e-4345-9146-6b7da3438322" />
+            <covered>
+              <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
             </covered>
           </messageOccurrenceSpecification>
           <behaviorExecutionSpecification Id="7e2f9f43-c4b8-45b7-8e33-01e8cf1a5cd5" name="BehaviorExecutionSpecification16">
@@ -715,16 +715,16 @@
               <lifelineMoniker Id="c950cf8d-298d-4b61-ab4d-e4ed72381800" LastKnownName="Bruger" />
             </covered>
           </executionOccurrenceSpecification>
-          <messageOccurrenceSpecification Id="0f64ccb2-fdcd-48c1-9edd-75ab4f058964" name="MessageOccurrenceSpecification58">
-            <elementDefinition Id="c35f4e5f-3953-4e1b-84d8-07ccc10849b6" />
-            <covered>
-              <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
-            </covered>
-          </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="908012c8-ca8e-47d6-aaa1-1a908117abd4" name="MessageOccurrenceSpecification57">
             <elementDefinition Id="874d1743-9f2f-4b46-8bb3-54d29a70a84a" />
             <covered>
               <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="0f64ccb2-fdcd-48c1-9edd-75ab4f058964" name="MessageOccurrenceSpecification58">
+            <elementDefinition Id="c35f4e5f-3953-4e1b-84d8-07ccc10849b6" />
+            <covered>
+              <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
             </covered>
           </messageOccurrenceSpecification>
           <executionOccurrenceSpecification Id="b7fc890e-2266-4a1f-aa59-b1df636924ba" name="ExecutionOccurrenceSpecification30">
@@ -779,16 +779,16 @@
               <lifelineMoniker Id="633721ba-46ff-403a-b76a-c9878243c486" LastKnownName="System" />
             </covered>
           </executionOccurrenceSpecification>
-          <messageOccurrenceSpecification Id="0a85b8ef-ba19-44d8-aa01-eb934234daf7" name="MessageOccurrenceSpecification50">
-            <elementDefinition Id="c855f95e-9091-4568-bd26-eb6648be0aa1" />
-            <covered>
-              <lifelineMoniker Id="c950cf8d-298d-4b61-ab4d-e4ed72381800" LastKnownName="Bruger" />
-            </covered>
-          </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="ecfe6340-e171-4e20-a53d-c7ee5c936b65" name="MessageOccurrenceSpecification49">
             <elementDefinition Id="2065b9c5-8509-4e3e-a08a-26a4527b4355" />
             <covered>
               <lifelineMoniker Id="53ee2114-42de-49bc-b7a1-cf76ec8db640" LastKnownName="Bruger Interface" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="0a85b8ef-ba19-44d8-aa01-eb934234daf7" name="MessageOccurrenceSpecification50">
+            <elementDefinition Id="c855f95e-9091-4568-bd26-eb6648be0aa1" />
+            <covered>
+              <lifelineMoniker Id="c950cf8d-298d-4b61-ab4d-e4ed72381800" LastKnownName="Bruger" />
             </covered>
           </messageOccurrenceSpecification>
           <executionOccurrenceSpecification Id="51f91404-5744-4a60-8db6-b8c7f2e03a3a" name="ExecutionOccurrenceSpecification26">
@@ -939,7 +939,7 @@
               <messageOccurrenceSpecificationMoniker Id="c49538f6-8128-4851-a6e4-991c083a5135" LastKnownName="MessageOccurrenceSpecification44" />
             </receiveEvent>
           </message>
-          <message Id="73a51a62-fe85-421a-899c-6fc613ac8bb2" name="Opret Skade Billed" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+          <message Id="73a51a62-fe85-421a-899c-6fc613ac8bb2" name="Opret Skade Billede" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
             <elementDefinition Id="e933ede5-e8fe-4140-bc65-a219b148e206" />
             <sendEvent>
               <messageOccurrenceSpecificationMoniker Id="9dd4b4dd-2f43-4a3b-aec2-f2d1b77c98f2" LastKnownName="MessageOccurrenceSpecification45" />
@@ -1011,7 +1011,7 @@
               <messageOccurrenceSpecificationMoniker Id="0f64ccb2-fdcd-48c1-9edd-75ab4f058964" LastKnownName="MessageOccurrenceSpecification58" />
             </receiveEvent>
           </message>
-          <message Id="e12ea4ae-951b-45f7-96a1-ea761b0590b3" name="Statue Gemt" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+          <message Id="e12ea4ae-951b-45f7-96a1-ea761b0590b3" name="skade Gemt" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
             <elementDefinition Id="3d459aac-a782-4e02-afa7-a61090c1c4e3" />
             <sendEvent>
               <messageOccurrenceSpecificationMoniker Id="ea78b14f-e09f-4a58-9cbe-43de9c228779" LastKnownName="MessageOccurrenceSpecification53" />
@@ -1020,7 +1020,7 @@
               <messageOccurrenceSpecificationMoniker Id="823cf2bd-ba91-430e-a460-7b9a60d430e6" LastKnownName="MessageOccurrenceSpecification54" />
             </receiveEvent>
           </message>
-          <message Id="101a4139-fdb6-4909-8d83-7d5aa86ff4f9" name="Statue Gemt" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+          <message Id="101a4139-fdb6-4909-8d83-7d5aa86ff4f9" name="skade Gemt" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
             <elementDefinition Id="a1b23ee8-7036-4772-b514-f628c7588a25" />
             <sendEvent>
               <messageOccurrenceSpecificationMoniker Id="ecfe6340-e171-4e20-a53d-c7ee5c936b65" LastKnownName="MessageOccurrenceSpecification49" />
